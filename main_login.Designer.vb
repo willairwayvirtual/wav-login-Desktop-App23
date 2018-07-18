@@ -33,7 +33,7 @@ Partial Class main_login
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.LinkLabel12 = New System.Windows.Forms.LinkLabel()
+        Me.Button32 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -90,7 +90,7 @@ Partial Class main_login
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(463, 50)
+        Me.Label2.Location = New System.Drawing.Point(453, 46)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(124, 29)
         Me.Label2.TabIndex = 5
@@ -133,36 +133,33 @@ Partial Class main_login
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(434, 232)
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(481, 227)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(176, 29)
+        Me.CheckBox1.Size = New System.Drawing.Size(130, 22)
         Me.CheckBox1.TabIndex = 9
         Me.CheckBox1.Text = "Remember me "
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'LinkLabel12
+        'Button32
         '
-        Me.LinkLabel12.ActiveLinkColor = System.Drawing.Color.White
-        Me.LinkLabel12.AutoSize = True
-        Me.LinkLabel12.DisabledLinkColor = System.Drawing.Color.White
-        Me.LinkLabel12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel12.LinkColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.LinkLabel12.Location = New System.Drawing.Point(436, 254)
-        Me.LinkLabel12.Name = "LinkLabel12"
-        Me.LinkLabel12.Size = New System.Drawing.Size(163, 16)
-        Me.LinkLabel12.TabIndex = 10
-        Me.LinkLabel12.TabStop = True
-        Me.LinkLabel12.Text = "Forgotten your password?"
-        Me.LinkLabel12.VisitedLinkColor = System.Drawing.Color.White
+        Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button32.ForeColor = System.Drawing.Color.White
+        Me.Button32.Location = New System.Drawing.Point(367, 247)
+        Me.Button32.Name = "Button32"
+        Me.Button32.Size = New System.Drawing.Size(324, 35)
+        Me.Button32.TabIndex = 10
+        Me.Button32.Text = "Forgotten your password?"
+        Me.Button32.UseVisualStyleBackColor = False
         '
         'main_login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(682, 279)
-        Me.Controls.Add(Me.LinkLabel12)
+        Me.ClientSize = New System.Drawing.Size(695, 286)
+        Me.Controls.Add(Me.Button32)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -193,5 +190,5 @@ Partial Class main_login
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents LinkLabel12 As LinkLabel
+    Friend WithEvents Button32 As Button
 End Class

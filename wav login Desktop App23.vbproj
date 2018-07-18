@@ -114,6 +114,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ResetPword.Designer.vb">
+      <DependentUpon>ResetPword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPword.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Splash.Designer.vb">
       <DependentUpon>Splash.vb</DependentUpon>
     </Compile>
@@ -136,6 +142,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPword.resx">
+      <DependentUpon>ResetPword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>

@@ -35,8 +35,8 @@ Public Class main_login
         'checking the result
         If userFound = True Then
             Form2.Show()
-            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member "
-        Else
+            Me.Close()
+
             MsgBox("Sorry, username or password not found", MsgBoxStyle.OkOnly, "Invalid Login")
         End If
         myConnection.Close()
@@ -55,7 +55,16 @@ Public Class main_login
 
     End Sub
 
-    Private Sub LinkLabel1_Click(sender As Object, e As EventArgs) Handles LinkLabel12.Click
+    Private Sub LinkLabel1_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub LinkLabel12_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button32.Click
+        ResetPword.Show()
+        Me.Close()
     End Sub
 End Class

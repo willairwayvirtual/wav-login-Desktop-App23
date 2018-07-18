@@ -74,6 +74,7 @@ Partial Class Splash
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Splash"
         Me.Text = "wav Desktop App"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
