@@ -117,9 +117,9 @@ Partial Class ResetPword
         '
         Me.Button1.BackColor = System.Drawing.Color.Yellow
         Me.Button1.ForeColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(-5, 320)
+        Me.Button1.Location = New System.Drawing.Point(-5, 310)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(654, 49)
+        Me.Button1.Size = New System.Drawing.Size(654, 59)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Update Password "
         Me.Button1.UseVisualStyleBackColor = False
@@ -181,7 +181,7 @@ Partial Class ResetPword
         Me.Controls.Add(Me.CNewPword)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.USName)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ResetPword"
         Me.Text = " Reset Password "

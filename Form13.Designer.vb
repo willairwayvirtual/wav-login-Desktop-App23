@@ -224,6 +224,7 @@ Partial Class Form132
         Me.Controls.Add(Me.Button63)
         Me.Controls.Add(Me.pictureBox2)
         Me.Controls.Add(Me.Button6)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form132"
         Me.Text = "wav menu"
