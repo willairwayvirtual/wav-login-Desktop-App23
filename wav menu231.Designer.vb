@@ -78,9 +78,9 @@ Partial Class Form1
         Me.Button63.BackColor = System.Drawing.Color.Gray
         Me.Button63.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button63.Location = New System.Drawing.Point(642, 79)
+        Me.Button63.Location = New System.Drawing.Point(642, 83)
         Me.Button63.Name = "Button63"
-        Me.Button63.Size = New System.Drawing.Size(212, 79)
+        Me.Button63.Size = New System.Drawing.Size(224, 79)
         Me.Button63.TabIndex = 66
         Me.Button63.Text = "Flight closing"
         Me.Button63.UseVisualStyleBackColor = False
@@ -140,7 +140,7 @@ Partial Class Form1
         Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button3.Location = New System.Drawing.Point(659, 190)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(186, 82)
+        Me.Button3.Size = New System.Drawing.Size(207, 82)
         Me.Button3.TabIndex = 73
         Me.Button3.Text = "FlightPlan"
         Me.Button3.UseVisualStyleBackColor = False
@@ -152,7 +152,7 @@ Partial Class Form1
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.Location = New System.Drawing.Point(668, 313)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(177, 94)
+        Me.Button2.Size = New System.Drawing.Size(213, 94)
         Me.Button2.TabIndex = 74
         Me.Button2.Text = "search for FlightPlan"
         Me.Button2.UseVisualStyleBackColor = False
