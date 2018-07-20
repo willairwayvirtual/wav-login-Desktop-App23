@@ -140,6 +140,12 @@
     <Compile Include="Splash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="wav menu231.Designer.vb">
+      <DependentUpon>wav menu231.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wav menu231.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="create_reg.resx">
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wav menu231.resx">
+      <DependentUpon>wav menu231.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
