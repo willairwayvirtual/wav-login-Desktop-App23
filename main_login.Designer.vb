@@ -148,7 +148,7 @@ Partial Class main_login
         Me.Button32.ForeColor = System.Drawing.Color.White
         Me.Button32.Location = New System.Drawing.Point(367, 247)
         Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(324, 35)
+        Me.Button32.Size = New System.Drawing.Size(324, 40)
         Me.Button32.TabIndex = 10
         Me.Button32.Text = "Forgotten your password?"
         Me.Button32.UseVisualStyleBackColor = False
