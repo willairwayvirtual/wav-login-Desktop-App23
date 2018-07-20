@@ -138,7 +138,7 @@ Partial Class Form132
         Me.Button5.Text = "LOG OUT"
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'label1. = 
+        'label1
         '
         Me.label1.AutoSize = True
         Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -224,6 +224,7 @@ Partial Class Form132
         Me.Controls.Add(Me.Button63)
         Me.Controls.Add(Me.pictureBox2)
         Me.Controls.Add(Me.Button6)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form132"
         Me.Text = "wav menu"
         CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
