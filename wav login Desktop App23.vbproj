@@ -81,6 +81,12 @@
     <Compile Include="create_reg.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FlightPLan.Designer.vb">
+      <DependentUpon>FlightPLan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FlightPLan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form13.Designer.vb">
       <DependentUpon>Form13.vb</DependentUpon>
     </Compile>
