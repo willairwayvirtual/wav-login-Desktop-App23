@@ -22,6 +22,7 @@ Partial Class Reporting
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Reporting))
         Me.label1 = New System.Windows.Forms.Label()
         Me.label2 = New System.Windows.Forms.Label()
         Me.label3 = New System.Windows.Forms.Label()
@@ -64,11 +65,11 @@ Partial Class Reporting
         '
         Me.label3.AutoSize = True
         Me.label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label3.Location = New System.Drawing.Point(372, 4)
+        Me.label3.Location = New System.Drawing.Point(387, 4)
         Me.label3.Name = "label3"
-        Me.label3.Size = New System.Drawing.Size(194, 33)
+        Me.label3.Size = New System.Drawing.Size(148, 33)
         Me.label3.TabIndex = 12
-        Me.label3.Text = "reporting time"
+        Me.label3.Text = "sig in time"
         '
         'label4
         '
@@ -204,6 +205,7 @@ Partial Class Reporting
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Reporting"
         Me.Text = "reporting in the Flight deck"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
