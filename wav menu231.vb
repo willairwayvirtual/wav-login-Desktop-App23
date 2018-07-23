@@ -7,9 +7,6 @@
 
     End Sub
 
-    Private Sub Button4_ClientSizeChanged(sender As Object, e As EventArgs) Handles Button4.ClientSizeChanged
-
-    End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         WASupport.Show()
@@ -21,6 +18,13 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         WavFlightPlan.Show()
         Me.Close()
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        SearchDB.Show()
+        Me.Close()
+
 
     End Sub
 End Class

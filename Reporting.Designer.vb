@@ -84,9 +84,9 @@ Partial Class Reporting
         'button1
         '
         Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button1.Location = New System.Drawing.Point(807, 41)
+        Me.button1.Location = New System.Drawing.Point(816, 38)
         Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(238, 49)
+        Me.button1.Size = New System.Drawing.Size(229, 52)
         Me.button1.TabIndex = 24
         Me.button1.Text = "reporting in for duty"
         Me.button1.UseVisualStyleBackColor = True
@@ -94,9 +94,9 @@ Partial Class Reporting
         'button2
         '
         Me.button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button2.Location = New System.Drawing.Point(1033, 39)
+        Me.button2.Location = New System.Drawing.Point(1034, 39)
         Me.button2.Name = "button2"
-        Me.button2.Size = New System.Drawing.Size(231, 51)
+        Me.button2.Size = New System.Drawing.Size(230, 51)
         Me.button2.TabIndex = 25
         Me.button2.Text = "back to menu"
         Me.button2.UseVisualStyleBackColor = True

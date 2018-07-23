@@ -170,6 +170,7 @@ Partial Class WASupport
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WASupport"
         Me.Text = " Support form"
         Me.ResumeLayout(False)
