@@ -17,4 +17,11 @@
     Private Sub Form132_VisibleChanged(sender As Object, e As EventArgs) Handles Me.VisibleChanged
 
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        main_login.Show()
+        Me.Close()
+
+
+    End Sub
 End Class
