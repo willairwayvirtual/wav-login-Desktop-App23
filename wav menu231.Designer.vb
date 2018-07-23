@@ -25,7 +25,6 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button63 = New System.Windows.Forms.Button()
         Me.label1 = New System.Windows.Forms.Label()
         Me.pictureBox2 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
@@ -39,6 +38,7 @@ Partial Class Form1
         Me.pictureBox11 = New System.Windows.Forms.PictureBox()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Button63 = New System.Windows.Forms.Button()
         CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -72,18 +72,6 @@ Partial Class Form1
         Me.Button4.TabIndex = 65
         Me.Button4.Text = "Support" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "  Helpdesk"
         Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button63
-        '
-        Me.Button63.BackColor = System.Drawing.Color.Gray
-        Me.Button63.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button63.Location = New System.Drawing.Point(642, 83)
-        Me.Button63.Name = "Button63"
-        Me.Button63.Size = New System.Drawing.Size(224, 79)
-        Me.Button63.TabIndex = 66
-        Me.Button63.Text = "Flight closing"
-        Me.Button63.UseVisualStyleBackColor = False
         '
         'label1
         '
@@ -214,6 +202,18 @@ Partial Class Form1
         Me.PictureBox6.TabIndex = 80
         Me.PictureBox6.TabStop = False
         '
+        'Button63
+        '
+        Me.Button63.BackColor = System.Drawing.Color.Gray
+        Me.Button63.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button63.Location = New System.Drawing.Point(642, 83)
+        Me.Button63.Name = "Button63"
+        Me.Button63.Size = New System.Drawing.Size(224, 79)
+        Me.Button63.TabIndex = 66
+        Me.Button63.Text = "Flight closing"
+        Me.Button63.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -253,7 +253,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents Button1 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button63 As Button
     Private WithEvents label1 As Label
     Friend WithEvents pictureBox2 As PictureBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
@@ -267,4 +266,5 @@ Partial Class Form1
     Friend WithEvents pictureBox11 As PictureBox
     Friend WithEvents Label25 As Label
     Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Button63 As Button
 End Class

@@ -27,4 +27,18 @@
 
 
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        main_login.Show()
+        Me.Close()
+
+
+    End Sub
+
+    Private Sub Button63_Click(sender As Object, e As EventArgs) Handles Button63.Click
+        Form132.Show()
+        Me.Close()
+
+
+    End Sub
 End Class

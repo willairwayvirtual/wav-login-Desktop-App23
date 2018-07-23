@@ -219,6 +219,7 @@ Partial Class SearchDB
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Buttonsc)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "SearchDB"
         Me.Text = "Wav scerch"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
