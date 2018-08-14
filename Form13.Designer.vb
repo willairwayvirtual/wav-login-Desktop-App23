@@ -31,7 +31,6 @@ Partial Class Form132
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.label1 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -138,16 +137,6 @@ Partial Class Form132
         Me.Button5.Text = "LOG OUT"
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'label1
-        '
-        Me.label1.AutoSize = True
-        Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1.Location = New System.Drawing.Point(407, 9)
-        Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(86, 31)
-        Me.label1.TabIndex = 67
-        Me.label1.Text = "label1"
-        '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
@@ -215,7 +204,6 @@ Partial Class Form132
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.label1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button3)
@@ -235,7 +223,6 @@ Partial Class Form132
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -247,7 +234,6 @@ Partial Class Form132
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button5 As Button
-    Private WithEvents label1 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox

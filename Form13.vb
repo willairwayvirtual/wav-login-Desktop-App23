@@ -10,7 +10,7 @@
 
     End Sub
 
-    Private Sub label1_Click(sender As Object, e As EventArgs) Handles label1.Click
+    Private Sub label1_Click(sender As Object, e As EventArgs) 
 
     End Sub
 

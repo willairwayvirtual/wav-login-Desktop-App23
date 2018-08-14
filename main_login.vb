@@ -36,7 +36,7 @@ Public Class main_login
         If userFound = True Then
             Form2.Show()
             Me.Close()
-
+        Else
             MsgBox("Sorry, username or password not found", MsgBoxStyle.OkOnly, "Invalid Login")
         End If
         myConnection.Close()

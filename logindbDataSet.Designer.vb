@@ -669,17 +669,17 @@ Partial Public Class logindbDataSet
     Partial Public Class tblAccessInfoDataTable
         Inherits Global.System.Data.TypedTableBase(Of tblAccessInfoRow)
         
-        Private columnUsername As Global.System.Data.DataColumn
-        
-        Private columnPassword As Global.System.Data.DataColumn
-        
-        Private columnFirstname As Global.System.Data.DataColumn
-        
-        Private columnLastname As Global.System.Data.DataColumn
-        
         Private columnApproved As Global.System.Data.DataColumn
         
         Private columnStatus As Global.System.Data.DataColumn
+        
+        Private columnUname As Global.System.Data.DataColumn
+        
+        Private columnPword As Global.System.Data.DataColumn
+        
+        Private columnFname As Global.System.Data.DataColumn
+        
+        Private columnLname As Global.System.Data.DataColumn
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
@@ -718,38 +718,6 @@ Partial Public Class logindbDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property UsernameColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnUsername
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property PasswordColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnPassword
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property FirstnameColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnFirstname
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property LastnameColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnLastname
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public ReadOnly Property ApprovedColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnApproved
@@ -761,6 +729,38 @@ Partial Public Class logindbDataSet
         Public ReadOnly Property StatusColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnStatus
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property UnameColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUname
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property PwordColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPword
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property FnameColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnFname
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property LnameColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnLname
             End Get
         End Property
         
@@ -801,9 +801,9 @@ Partial Public Class logindbDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Overloads Function AddtblAccessInfoRow(ByVal Username As String, ByVal Password As String, ByVal Firstname As String, ByVal Lastname As String, ByVal Approved As Boolean, ByVal Status As String) As tblAccessInfoRow
+        Public Overloads Function AddtblAccessInfoRow(ByVal Approved As Boolean, ByVal Status As String, ByVal Uname As String, ByVal Pword As String, ByVal Fname As String, ByVal Lname As String) As tblAccessInfoRow
             Dim rowtblAccessInfoRow As tblAccessInfoRow = CType(Me.NewRow,tblAccessInfoRow)
-            Dim columnValuesArray() As Object = New Object() {Username, Password, Firstname, Lastname, Approved, Status}
+            Dim columnValuesArray() As Object = New Object() {Approved, Status, Uname, Pword, Fname, Lname}
             rowtblAccessInfoRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowtblAccessInfoRow)
             Return rowtblAccessInfoRow
@@ -826,34 +826,34 @@ Partial Public Class logindbDataSet
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Friend Sub InitVars()
-            Me.columnUsername = MyBase.Columns("Username")
-            Me.columnPassword = MyBase.Columns("Password")
-            Me.columnFirstname = MyBase.Columns("Firstname")
-            Me.columnLastname = MyBase.Columns("Lastname")
             Me.columnApproved = MyBase.Columns("Approved")
             Me.columnStatus = MyBase.Columns("Status")
+            Me.columnUname = MyBase.Columns("Uname")
+            Me.columnPword = MyBase.Columns("Pword")
+            Me.columnFname = MyBase.Columns("Fname")
+            Me.columnLname = MyBase.Columns("Lname")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitClass()
-            Me.columnUsername = New Global.System.Data.DataColumn("Username", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnUsername)
-            Me.columnPassword = New Global.System.Data.DataColumn("Password", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnPassword)
-            Me.columnFirstname = New Global.System.Data.DataColumn("Firstname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnFirstname)
-            Me.columnLastname = New Global.System.Data.DataColumn("Lastname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnLastname)
             Me.columnApproved = New Global.System.Data.DataColumn("Approved", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnApproved)
             Me.columnStatus = New Global.System.Data.DataColumn("Status", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnStatus)
-            Me.columnUsername.MaxLength = 255
-            Me.columnPassword.MaxLength = 255
-            Me.columnFirstname.MaxLength = 255
-            Me.columnLastname.MaxLength = 255
+            Me.columnUname = New Global.System.Data.DataColumn("Uname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUname)
+            Me.columnPword = New Global.System.Data.DataColumn("Pword", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPword)
+            Me.columnFname = New Global.System.Data.DataColumn("Fname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnFname)
+            Me.columnLname = New Global.System.Data.DataColumn("Lname", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnLname)
             Me.columnStatus.MaxLength = 255
+            Me.columnUname.MaxLength = 255
+            Me.columnPword.MaxLength = 255
+            Me.columnFname.MaxLength = 255
+            Me.columnLname.MaxLength = 255
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1232,66 +1232,6 @@ Partial Public Class logindbDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property Username() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tabletblAccessInfo.UsernameColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Username' in table 'tblAccessInfo' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tabletblAccessInfo.UsernameColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property Password() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tabletblAccessInfo.PasswordColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Password' in table 'tblAccessInfo' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tabletblAccessInfo.PasswordColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property Firstname() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tabletblAccessInfo.FirstnameColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Firstname' in table 'tblAccessInfo' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tabletblAccessInfo.FirstnameColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property Lastname() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tabletblAccessInfo.LastnameColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Lastname' in table 'tblAccessInfo' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tabletblAccessInfo.LastnameColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Property Approved() As Boolean
             Get
                 Try 
@@ -1322,51 +1262,63 @@ Partial Public Class logindbDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsUsernameNull() As Boolean
-            Return Me.IsNull(Me.tabletblAccessInfo.UsernameColumn)
-        End Function
+        Public Property Uname() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblAccessInfo.UnameColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Uname' in table 'tblAccessInfo' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblAccessInfo.UnameColumn) = value
+            End Set
+        End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetUsernameNull()
-            Me(Me.tabletblAccessInfo.UsernameColumn) = Global.System.Convert.DBNull
-        End Sub
+        Public Property Pword() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblAccessInfo.PwordColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Pword' in table 'tblAccessInfo' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblAccessInfo.PwordColumn) = value
+            End Set
+        End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsPasswordNull() As Boolean
-            Return Me.IsNull(Me.tabletblAccessInfo.PasswordColumn)
-        End Function
+        Public Property Fname() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblAccessInfo.FnameColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Fname' in table 'tblAccessInfo' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblAccessInfo.FnameColumn) = value
+            End Set
+        End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetPasswordNull()
-            Me(Me.tabletblAccessInfo.PasswordColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsFirstnameNull() As Boolean
-            Return Me.IsNull(Me.tabletblAccessInfo.FirstnameColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetFirstnameNull()
-            Me(Me.tabletblAccessInfo.FirstnameColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsLastnameNull() As Boolean
-            Return Me.IsNull(Me.tabletblAccessInfo.LastnameColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetLastnameNull()
-            Me(Me.tabletblAccessInfo.LastnameColumn) = Global.System.Convert.DBNull
-        End Sub
+        Public Property Lname() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblAccessInfo.LnameColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Lname' in table 'tblAccessInfo' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblAccessInfo.LnameColumn) = value
+            End Set
+        End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
@@ -1390,6 +1342,54 @@ Partial Public Class logindbDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetStatusNull()
             Me(Me.tabletblAccessInfo.StatusColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsUnameNull() As Boolean
+            Return Me.IsNull(Me.tabletblAccessInfo.UnameColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetUnameNull()
+            Me(Me.tabletblAccessInfo.UnameColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsPwordNull() As Boolean
+            Return Me.IsNull(Me.tabletblAccessInfo.PwordColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetPwordNull()
+            Me(Me.tabletblAccessInfo.PwordColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsFnameNull() As Boolean
+            Return Me.IsNull(Me.tabletblAccessInfo.FnameColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetFnameNull()
+            Me(Me.tabletblAccessInfo.FnameColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsLnameNull() As Boolean
+            Return Me.IsNull(Me.tabletblAccessInfo.LnameColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetLnameNull()
+            Me(Me.tabletblAccessInfo.LnameColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -1874,24 +1874,24 @@ Namespace logindbDataSetTableAdapters
             Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
             tableMapping.SourceTable = "Table"
             tableMapping.DataSetTable = "tblAccessInfo"
-            tableMapping.ColumnMappings.Add("Username", "Username")
-            tableMapping.ColumnMappings.Add("Password", "Password")
-            tableMapping.ColumnMappings.Add("Firstname", "Firstname")
-            tableMapping.ColumnMappings.Add("Lastname", "Lastname")
             tableMapping.ColumnMappings.Add("Approved", "Approved")
             tableMapping.ColumnMappings.Add("Status", "Status")
+            tableMapping.ColumnMappings.Add("Uname", "Uname")
+            tableMapping.ColumnMappings.Add("Pword", "Pword")
+            tableMapping.ColumnMappings.Add("Fname", "Fname")
+            tableMapping.ColumnMappings.Add("Lname", "Lname")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.InsertCommand = New Global.System.Data.OleDb.OleDbCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
-            Me._adapter.InsertCommand.CommandText = "INSERT INTO `tblAccessInfo` (`Username`, `Password`, `Firstname`, `Lastname`, `Ap"& _ 
-                "proved`, `Status`) VALUES (?, ?, ?, ?, ?, ?)"
+            Me._adapter.InsertCommand.CommandText = "INSERT INTO `tblAccessInfo` (`Approved`, `Status`, `Fname`, `Lname`, `Pword`, `Un"& _ 
+                "ame`) VALUES (?, ?, ?, ?, ?, ?)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Username", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Username", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Password", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Password", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Firstname", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Firstname", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Lastname", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Lastname", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Approved", Global.System.Data.OleDb.OleDbType.[Boolean], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Approved", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Status", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Status", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Fname", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Fname", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Lname", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Lname", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Pword", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Pword", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Uname", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Uname", Global.System.Data.DataRowVersion.Current, false, Nothing))
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1907,8 +1907,7 @@ Namespace logindbDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.OleDb.OleDbCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.OleDb.OleDbCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT Username, [Password], Firstname, Lastname, Approved, Status FROM tblAccess"& _ 
-                "Info"
+            Me._commandCollection(0).CommandText = "SELECT Approved, Status, Fname, Lname, Pword, Uname FROM tblAccessInfo"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
         End Sub
         
@@ -1968,32 +1967,32 @@ Namespace logindbDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, true)>  _
-        Public Overloads Overridable Function Insert(ByVal Username As String, ByVal Password As String, ByVal Firstname As String, ByVal Lastname As String, ByVal Approved As Boolean, ByVal Status As String) As Integer
-            If (Username Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(0).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.InsertCommand.Parameters(0).Value = CType(Username,String)
-            End If
-            If (Password Is Nothing) Then
+        Public Overloads Overridable Function Insert(ByVal Approved As Boolean, ByVal Status As String, ByVal Fname As String, ByVal Lname As String, ByVal Pword As String, ByVal Uname As String) As Integer
+            Me.Adapter.InsertCommand.Parameters(0).Value = CType(Approved,Boolean)
+            If (Status Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(1).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(1).Value = CType(Password,String)
+                Me.Adapter.InsertCommand.Parameters(1).Value = CType(Status,String)
             End If
-            If (Firstname Is Nothing) Then
+            If (Fname Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(2).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(2).Value = CType(Firstname,String)
+                Me.Adapter.InsertCommand.Parameters(2).Value = CType(Fname,String)
             End If
-            If (Lastname Is Nothing) Then
+            If (Lname Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(3).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(3).Value = CType(Lastname,String)
+                Me.Adapter.InsertCommand.Parameters(3).Value = CType(Lname,String)
             End If
-            Me.Adapter.InsertCommand.Parameters(4).Value = CType(Approved,Boolean)
-            If (Status Is Nothing) Then
+            If (Pword Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(4).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(4).Value = CType(Pword,String)
+            End If
+            If (Uname Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(5).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(5).Value = CType(Status,String)
+                Me.Adapter.InsertCommand.Parameters(5).Value = CType(Uname,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
             If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _

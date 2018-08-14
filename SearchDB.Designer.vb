@@ -90,7 +90,7 @@ Partial Class SearchDB
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(325, 84)
+        Me.TextBox6.Location = New System.Drawing.Point(341, 84)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(142, 20)
         Me.TextBox6.TabIndex = 7

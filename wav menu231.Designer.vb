@@ -25,7 +25,6 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.label1 = New System.Windows.Forms.Label()
         Me.pictureBox2 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -66,22 +65,12 @@ Partial Class Form1
         Me.Button4.BackColor = System.Drawing.Color.DimGray
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button4.Location = New System.Drawing.Point(-9, 293)
+        Me.Button4.Location = New System.Drawing.Point(0, 313)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(205, 96)
         Me.Button4.TabIndex = 65
         Me.Button4.Text = "Support" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "  Helpdesk"
         Me.Button4.UseVisualStyleBackColor = False
-        '
-        'label1
-        '
-        Me.label1.AutoSize = True
-        Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1.Location = New System.Drawing.Point(386, 9)
-        Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(86, 31)
-        Me.label1.TabIndex = 68
-        Me.label1.Text = "label1"
         '
         'pictureBox2
         '
@@ -167,9 +156,9 @@ Partial Class Form1
         '
         Me.Button5.BackColor = System.Drawing.Color.Red
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(-9, 394)
+        Me.Button5.Location = New System.Drawing.Point(0, 394)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(987, 56)
+        Me.Button5.Size = New System.Drawing.Size(987, 72)
         Me.Button5.TabIndex = 77
         Me.Button5.Text = "LOG OUT"
         Me.Button5.UseVisualStyleBackColor = False
@@ -232,7 +221,6 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.pictureBox2)
-        Me.Controls.Add(Me.label1)
         Me.Controls.Add(Me.Button63)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button1)
@@ -253,7 +241,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents Button1 As Button
     Friend WithEvents Button4 As Button
-    Private WithEvents label1 As Label
     Friend WithEvents pictureBox2 As PictureBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents PictureBox3 As PictureBox
