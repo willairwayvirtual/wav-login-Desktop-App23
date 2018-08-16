@@ -251,6 +251,7 @@ Partial Class create_reg
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "create_reg"
         Me.Text = "sign up in to willairwys Virtual"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

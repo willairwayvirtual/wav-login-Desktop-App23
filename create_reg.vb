@@ -68,4 +68,12 @@ Public Class create_reg
     Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs) Handles EMailAdd.TextChanged
 
     End Sub
+
+    Private Sub Button1_DoubleClick(sender As Object, e As EventArgs) Handles Button1.DoubleClick
+        Me.Close()
+        Form2.Show()
+
+
+
+    End Sub
 End Class
