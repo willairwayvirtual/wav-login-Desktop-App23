@@ -56,7 +56,7 @@ Partial Class main_login
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
         Me.DateTimePicker1.Location = New System.Drawing.Point(468, -1)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(223, 44)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(229, 44)
         Me.DateTimePicker1.TabIndex = 1
         '
         'PictureBox1
