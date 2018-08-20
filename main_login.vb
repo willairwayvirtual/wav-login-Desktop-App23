@@ -9,7 +9,7 @@ Public Class main_login
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
         'Change the following to your access database location
-        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\logindb.accdb"
+        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDatabase.accdb"
         connString = provider & dataFile
         myConnection.ConnectionString = connString
         myConnection.Open()

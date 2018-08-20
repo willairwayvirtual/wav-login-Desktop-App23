@@ -8,7 +8,7 @@ Public Class WavFlightPlan
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
         'Change the following to your access database location
-        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\logindb.accdb"
+        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDatabase.accdb"
         connString = provider & dataFile
         conn.ConnectionString = connString
         'check status of connection string
