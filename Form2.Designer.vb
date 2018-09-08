@@ -44,10 +44,10 @@ Partial Class Form2
         Me.Button2.BackColor = System.Drawing.Color.Gray
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Lime
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.Location = New System.Drawing.Point(394, 1)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(418, 162)
+        Me.Button2.Size = New System.Drawing.Size(401, 162)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "open willairwayvirtual a cars"
         Me.Button2.UseVisualStyleBackColor = False
@@ -64,7 +64,7 @@ Partial Class Form2
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "Form2"
-        Me.Text = "open willairwayvirtual"
+        Me.Text = "open willairwayvirtual Menu"
         Me.ResumeLayout(False)
 
     End Sub
