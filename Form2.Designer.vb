@@ -45,7 +45,7 @@ Partial Class Form2
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(394, 1)
+        Me.Button2.Location = New System.Drawing.Point(398, 1)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(401, 162)
         Me.Button2.TabIndex = 3
