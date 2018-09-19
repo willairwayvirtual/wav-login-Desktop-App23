@@ -47,7 +47,7 @@ Partial Class WavFlightPlan
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PIC = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -273,12 +273,12 @@ Partial Class WavFlightPlan
         Me.TextBox10.Size = New System.Drawing.Size(153, 20)
         Me.TextBox10.TabIndex = 26
         '
-        'TextBox1
+        'PIC
         '
-        Me.TextBox1.Location = New System.Drawing.Point(484, 104)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(174, 20)
-        Me.TextBox1.TabIndex = 27
+        Me.PIC.Location = New System.Drawing.Point(484, 104)
+        Me.PIC.Name = "PIC"
+        Me.PIC.Size = New System.Drawing.Size(174, 20)
+        Me.PIC.TabIndex = 27
         '
         'Label12
         '
@@ -286,9 +286,9 @@ Partial Class WavFlightPlan
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(484, 77)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(176, 24)
+        Me.Label12.Size = New System.Drawing.Size(158, 24)
         Me.Label12.TabIndex = 28
-        Me.Label12.Text = "piots in commander"
+        Me.Label12.Text = "Pilot in Command"
         '
         'WavFlightPlan
         '
@@ -297,7 +297,7 @@ Partial Class WavFlightPlan
         Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(1006, 530)
         Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.PIC)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -357,6 +357,6 @@ Partial Class WavFlightPlan
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents PIC As TextBox
     Friend WithEvents Label12 As Label
 End Class

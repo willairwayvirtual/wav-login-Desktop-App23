@@ -17,7 +17,7 @@ Public Class WavFlightPlan
         Else
             conn.Close()
         End If
-        Dim savenew As String = "INSERT INTO [flightplans]  (FltNum,DepTair,ArrAir,ETA,Gate,AcType,Plan,Route,Fuel) values('" &
+        Dim savenew As String = "INSERT INTO [flightplans]  (FltNum,DepTair,ArrAir,ETA,Gate,AcType,Plan,Route,Fuel,PIC) values('" &
         FltNum.Text & "','" &
         DeptAir.Text & "','" &
         ArrAir.Text & "','" &
@@ -26,7 +26,8 @@ Public Class WavFlightPlan
        AcType.Text & "','" &
        Plan.Text & "','" &
        Route.Text & "','" &
-       Fuel.Text & "');"
+       Fuel.Text & "','" &
+       PIC.Text & "');"
 
         Dim cmd As New OleDbCommand
 
@@ -57,6 +58,10 @@ Public Class WavFlightPlan
         Form1.Show()
         Me.Close()
 
+
+    End Sub
+
+    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
 
     End Sub
 End Class
