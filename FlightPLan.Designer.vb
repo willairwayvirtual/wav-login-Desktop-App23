@@ -47,6 +47,8 @@ Partial Class WavFlightPlan
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Route
@@ -55,10 +57,10 @@ Partial Class WavFlightPlan
         Me.Route.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Route.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Route.Location = New System.Drawing.Point(1, 174)
+        Me.Route.Location = New System.Drawing.Point(1, 187)
         Me.Route.Multiline = True
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(1066, 356)
+        Me.Route.Size = New System.Drawing.Size(1066, 343)
         Me.Route.TabIndex = 0
         '
         'FltNum
@@ -70,7 +72,7 @@ Partial Class WavFlightPlan
         '
         'Plan
         '
-        Me.Plan.Location = New System.Drawing.Point(148, 92)
+        Me.Plan.Location = New System.Drawing.Point(153, 104)
         Me.Plan.Name = "Plan"
         Me.Plan.Size = New System.Drawing.Size(171, 20)
         Me.Plan.TabIndex = 2
@@ -174,10 +176,10 @@ Partial Class WavFlightPlan
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(142, 56)
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(185, 77)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(162, 33)
+        Me.Label7.Size = New System.Drawing.Size(120, 25)
         Me.Label7.TabIndex = 14
         Me.Label7.Text = "Plan_name"
         '
@@ -186,7 +188,7 @@ Partial Class WavFlightPlan
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.White
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(410, 140)
+        Me.Label8.Location = New System.Drawing.Point(414, 138)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(172, 31)
         Me.Label8.TabIndex = 15
@@ -195,11 +197,11 @@ Partial Class WavFlightPlan
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(499, 53)
+        Me.Label9.Location = New System.Drawing.Point(592, 51)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(382, 30)
+        Me.Label9.Size = New System.Drawing.Size(334, 26)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "If you go from a stand or from a cargo depot, please enter S or C plus " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the numb" &
     "er in the stand box." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -208,7 +210,7 @@ Partial Class WavFlightPlan
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(1, 62)
+        Me.Label10.Location = New System.Drawing.Point(12, 76)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(125, 25)
         Me.Label10.TabIndex = 17
@@ -217,7 +219,7 @@ Partial Class WavFlightPlan
         'Fuel
         '
         Me.Fuel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Fuel.Location = New System.Drawing.Point(1, 93)
+        Me.Fuel.Location = New System.Drawing.Point(9, 105)
         Me.Fuel.Name = "Fuel"
         Me.Fuel.Size = New System.Drawing.Size(125, 20)
         Me.Fuel.TabIndex = 18
@@ -248,7 +250,7 @@ Partial Class WavFlightPlan
         Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker1.Location = New System.Drawing.Point(1, 119)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(1, 141)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(372, 40)
         Me.DateTimePicker1.TabIndex = 23
@@ -258,7 +260,7 @@ Partial Class WavFlightPlan
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(325, 61)
+        Me.Label11.Location = New System.Drawing.Point(330, 77)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(153, 25)
         Me.Label11.TabIndex = 25
@@ -266,10 +268,27 @@ Partial Class WavFlightPlan
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(325, 93)
+        Me.TextBox10.Location = New System.Drawing.Point(330, 104)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(153, 20)
         Me.TextBox10.TabIndex = 26
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(484, 104)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(174, 20)
+        Me.TextBox1.TabIndex = 27
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(484, 77)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(176, 24)
+        Me.Label12.TabIndex = 28
+        Me.Label12.Text = "piots in commander"
         '
         'WavFlightPlan
         '
@@ -277,6 +296,8 @@ Partial Class WavFlightPlan
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(1006, 530)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -336,4 +357,6 @@ Partial Class WavFlightPlan
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label12 As Label
 End Class
