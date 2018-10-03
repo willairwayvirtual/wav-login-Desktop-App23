@@ -7,13 +7,13 @@ Public Class main_login
 
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        myConnection.Close()
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
         'Change the following to your access database location
-        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDatabase.accdb"
+        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\logindbwav.accdb"
         connString = provider & dataFile
         myConnection.ConnectionString = connString
         myConnection.Open()
-
         'the query:
         Dim cmd As OleDbCommand = New OleDbCommand("SELECT * FROM [tblaccessinfo] WHERE [Uname] = '" & txtUsername.Text & "' AND [Pword] = '" & txtPassword.Text & "'", myConnection)
         Dim dr As OleDbDataReader = cmd.ExecuteReader
@@ -30,6 +30,7 @@ Public Class main_login
             FirstName = dr("FName").ToString
             LastName = dr("LName").ToString
             Status = dr("status").ToString
+
         End While
 
         'checking the result
