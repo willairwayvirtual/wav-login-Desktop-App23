@@ -10,7 +10,7 @@ Public Class main_login
         myConnection.Close()
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
         'Change the following to your access database location
-        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDBv1.accdb"
+        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDatabase.accdb"
         connString = provider & dataFile
         myConnection.ConnectionString = connString
         myConnection.Open()
