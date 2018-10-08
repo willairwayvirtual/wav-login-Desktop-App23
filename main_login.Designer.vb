@@ -32,7 +32,6 @@ Partial Class main_login
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button32 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -130,25 +129,14 @@ Partial Class main_login
         Me.Button2.Text = "login"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(481, 227)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(130, 22)
-        Me.CheckBox1.TabIndex = 9
-        Me.CheckBox1.Text = "Remember me "
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'Button32
         '
         Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button32.ForeColor = System.Drawing.Color.White
-        Me.Button32.Location = New System.Drawing.Point(367, 247)
+        Me.Button32.Location = New System.Drawing.Point(373, 224)
         Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(324, 40)
+        Me.Button32.Size = New System.Drawing.Size(324, 63)
         Me.Button32.TabIndex = 10
         Me.Button32.Text = "Forgotten your password?"
         Me.Button32.UseVisualStyleBackColor = False
@@ -160,7 +148,6 @@ Partial Class main_login
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(695, 286)
         Me.Controls.Add(Me.Button32)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -189,6 +176,5 @@ Partial Class main_login
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Button32 As Button
 End Class
