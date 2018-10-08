@@ -17,4 +17,11 @@
 
 
     End Sub
+
+    Private Sub Button1_DoubleClick(sender As Object, e As EventArgs) Handles Button1.DoubleClick
+        acars.Show()
+        Me.Close()
+
+
+    End Sub
 End Class

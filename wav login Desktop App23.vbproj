@@ -76,6 +76,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="acars.Designer.vb" />
     <Compile Include="connect.designer.vb">
       <DependentUpon>connect.vb</DependentUpon>
     </Compile>
@@ -174,6 +175,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="acars.resx" />
     <EmbeddedResource Include="connect.resx">
       <DependentUpon>connect.vb</DependentUpon>
     </EmbeddedResource>
