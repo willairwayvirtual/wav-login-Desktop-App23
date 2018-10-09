@@ -18,7 +18,7 @@
 
     End Sub
 
-    Private Sub Button1_DoubleClick(sender As Object, e As EventArgs) Handles Button1.DoubleClick
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         acars.Show()
         Me.Close()
 

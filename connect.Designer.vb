@@ -32,20 +32,21 @@ Partial Class connect
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(-7, 3)
+        Me.ProgressBar1.Location = New System.Drawing.Point(2, -9)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(829, 172)
+        Me.ProgressBar1.Size = New System.Drawing.Size(829, 180)
         Me.ProgressBar1.TabIndex = 0
         '
         'Timer1
         '
+        Me.Timer1.Enabled = True
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(-7, 171)
+        Me.Button1.Location = New System.Drawing.Point(2, 169)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(820, 52)
+        Me.Button1.Size = New System.Drawing.Size(820, 49)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "connect to Flight Simulator"
         Me.Button1.UseVisualStyleBackColor = True

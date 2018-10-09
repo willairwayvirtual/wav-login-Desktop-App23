@@ -23,6 +23,7 @@ Partial Class acars
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(acars))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -37,7 +38,11 @@ Partial Class acars
         Me.lblTimer = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -133,7 +138,7 @@ Partial Class acars
         Me.Label71.AutoSize = True
         Me.Label71.BackColor = System.Drawing.Color.Red
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(22, 294)
+        Me.Label71.Location = New System.Drawing.Point(102, 294)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(555, 20)
         Me.Label71.TabIndex = 16
@@ -176,12 +181,45 @@ Partial Class acars
         Me.Button2.Text = "save myHours"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(0, 0)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(172, 37)
+        Me.Button3.TabIndex = 21
+        Me.Button3.Text = "back"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Lime
+        Me.Label3.Location = New System.Drawing.Point(89, 375)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(144, 24)
+        Me.Label3.TabIndex = 22
+        Me.Label3.Text = "conneted to sim"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 374)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(83, 36)
+        Me.PictureBox1.TabIndex = 23
+        Me.PictureBox1.TabStop = False
+        '
         'acars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(808, 369)
+        Me.ClientSize = New System.Drawing.Size(808, 405)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblTimer)
@@ -196,9 +234,11 @@ Partial Class acars
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "acars"
         Me.Text = "a cars"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -218,4 +258,7 @@ Partial Class acars
     Friend WithEvents lblTimer As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
