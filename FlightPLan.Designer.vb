@@ -65,9 +65,10 @@ Partial Class WavFlightPlan
         '
         'FltNum
         '
+        Me.FltNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FltNum.Location = New System.Drawing.Point(1, 31)
         Me.FltNum.Name = "FltNum"
-        Me.FltNum.Size = New System.Drawing.Size(133, 20)
+        Me.FltNum.Size = New System.Drawing.Size(133, 26)
         Me.FltNum.TabIndex = 1
         '
         'Plan
@@ -79,16 +80,18 @@ Partial Class WavFlightPlan
         '
         'ArrAir
         '
+        Me.ArrAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ArrAir.Location = New System.Drawing.Point(325, 31)
         Me.ArrAir.Name = "ArrAir"
-        Me.ArrAir.Size = New System.Drawing.Size(126, 20)
+        Me.ArrAir.Size = New System.Drawing.Size(126, 26)
         Me.ArrAir.TabIndex = 3
         '
         'ETA
         '
+        Me.ETA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ETA.Location = New System.Drawing.Point(457, 32)
         Me.ETA.Name = "ETA"
-        Me.ETA.Size = New System.Drawing.Size(100, 20)
+        Me.ETA.Size = New System.Drawing.Size(100, 26)
         Me.ETA.TabIndex = 4
         '
         'Gate
@@ -168,9 +171,10 @@ Partial Class WavFlightPlan
         '
         'DeptAir
         '
+        Me.DeptAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DeptAir.Location = New System.Drawing.Point(148, 32)
         Me.DeptAir.Name = "DeptAir"
-        Me.DeptAir.Size = New System.Drawing.Size(171, 20)
+        Me.DeptAir.Size = New System.Drawing.Size(171, 26)
         Me.DeptAir.TabIndex = 13
         '
         'Label7
@@ -199,7 +203,7 @@ Partial Class WavFlightPlan
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(592, 51)
+        Me.Label9.Location = New System.Drawing.Point(575, 55)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(334, 26)
         Me.Label9.TabIndex = 16

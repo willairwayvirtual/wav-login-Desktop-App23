@@ -84,6 +84,7 @@ Partial Class Reporting
         'button1
         '
         Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.button1.ForeColor = System.Drawing.Color.Gray
         Me.button1.Location = New System.Drawing.Point(805, 48)
         Me.button1.Name = "button1"
         Me.button1.Size = New System.Drawing.Size(239, 52)
@@ -94,6 +95,7 @@ Partial Class Reporting
         'button2
         '
         Me.button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.button2.ForeColor = System.Drawing.Color.Gray
         Me.button2.Location = New System.Drawing.Point(1032, 48)
         Me.button2.Name = "button2"
         Me.button2.Size = New System.Drawing.Size(250, 52)
