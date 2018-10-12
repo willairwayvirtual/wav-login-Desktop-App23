@@ -28,7 +28,6 @@ Partial Class Reporting
         Me.label3 = New System.Windows.Forms.Label()
         Me.label4 = New System.Windows.Forms.Label()
         Me.button1 = New System.Windows.Forms.Button()
-        Me.button2 = New System.Windows.Forms.Button()
         Me.dateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.utextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -38,6 +37,7 @@ Partial Class Reporting
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -91,17 +91,6 @@ Partial Class Reporting
         Me.button1.TabIndex = 24
         Me.button1.Text = "reporting in for duty"
         Me.button1.UseVisualStyleBackColor = True
-        '
-        'button2
-        '
-        Me.button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button2.ForeColor = System.Drawing.Color.Gray
-        Me.button2.Location = New System.Drawing.Point(1032, 48)
-        Me.button2.Name = "button2"
-        Me.button2.Size = New System.Drawing.Size(250, 52)
-        Me.button2.TabIndex = 25
-        Me.button2.Text = "back to menu"
-        Me.button2.UseVisualStyleBackColor = True
         '
         'dateTimePicker1
         '
@@ -186,12 +175,23 @@ Partial Class Reporting
         Me.DataGridView1.Size = New System.Drawing.Size(1271, 604)
         Me.DataGridView1.TabIndex = 34
         '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(1038, 48)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(241, 52)
+        Me.Button2.TabIndex = 35
+        Me.Button2.Text = "back to menu"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Reporting
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(1265, 687)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -201,7 +201,6 @@ Partial Class Reporting
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.utextBox1)
         Me.Controls.Add(Me.dateTimePicker1)
-        Me.Controls.Add(Me.button2)
         Me.Controls.Add(Me.button1)
         Me.Controls.Add(Me.label4)
         Me.Controls.Add(Me.label3)
@@ -223,7 +222,6 @@ Partial Class Reporting
     Private WithEvents label3 As Label
     Private WithEvents label4 As Label
     Private WithEvents button1 As Button
-    Private WithEvents button2 As Button
     Private WithEvents dateTimePicker1 As DateTimePicker
     Private WithEvents utextBox1 As TextBox
     Private WithEvents TextBox1 As TextBox
@@ -233,4 +231,5 @@ Partial Class Reporting
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Button2 As Button
 End Class
