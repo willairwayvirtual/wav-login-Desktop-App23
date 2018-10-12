@@ -1,4 +1,4 @@
-﻿Imports System.Data.OleDb
+Imports System.Data.OleDb
 Public Class Reporting
 
     Dim provider As String
@@ -33,7 +33,3 @@ Public Class Reporting
     Private Sub button2_Click(sender As Object, e As EventArgs) Handles button2.Click
         Form1.Show()
         Me.Close()
-
-
-    End Sub
-End Class
