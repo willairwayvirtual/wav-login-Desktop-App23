@@ -40,7 +40,7 @@ Partial Class WASupport
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(341, 25)
+        Me.Label1.Location = New System.Drawing.Point(389, 25)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(215, 39)
         Me.Label1.TabIndex = 0
@@ -50,7 +50,7 @@ Partial Class WASupport
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(132, 124)
+        Me.Label2.Location = New System.Drawing.Point(145, 124)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(118, 37)
         Me.Label2.TabIndex = 2
@@ -84,9 +84,9 @@ Partial Class WASupport
         Me.Send_Ticket.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Send_Ticket.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Send_Ticket.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Send_Ticket.Location = New System.Drawing.Point(877, 113)
+        Me.Send_Ticket.Location = New System.Drawing.Point(871, 67)
         Me.Send_Ticket.Name = "Send_Ticket"
-        Me.Send_Ticket.Size = New System.Drawing.Size(305, 81)
+        Me.Send_Ticket.Size = New System.Drawing.Size(305, 124)
         Me.Send_Ticket.TabIndex = 5
         Me.Send_Ticket.Text = "send ticket"
         Me.Send_Ticket.UseVisualStyleBackColor = False
@@ -109,14 +109,14 @@ Partial Class WASupport
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
         Me.DateTimePicker1.Location = New System.Drawing.Point(877, 3)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(282, 62)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(299, 62)
         Me.DateTimePicker1.TabIndex = 24
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(90, 67)
+        Me.Label4.Location = New System.Drawing.Point(90, 68)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(173, 37)
         Me.Label4.TabIndex = 25
@@ -138,9 +138,9 @@ Partial Class WASupport
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(256, -6)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(454, 31)
+        Me.Label5.Size = New System.Drawing.Size(568, 31)
         Me.Label5.TabIndex = 29
-        Me.Label5.Text = "Welcome to willairways IT Help desk"
+        Me.Label5.Text = "Welcome to willairways VIRTUAL It Help desk"
         '
         'Subject
         '

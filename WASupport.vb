@@ -20,7 +20,7 @@ Public Class WASupport
         End If
 
         'add new records
-        Dim savenew As String = "INSERT INTO [Support_form]  (Uname,Subject,Qry) values('" &
+        Dim savenew As String = "INSERT INTO [Support]  (Uname,subject,Qry) values('" &
         Uname.Text & "','" &
         Subject.Text & "','" &
         Qry.Text & "');"
