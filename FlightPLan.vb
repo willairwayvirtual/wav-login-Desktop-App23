@@ -17,7 +17,7 @@ Public Class WavFlightPlan
         Else
             conn.Close()
         End If
-        Dim savenew As String = "INSERT INTO [flightplans]  (FltNum,DepTair,ArrAir,ETA,Gate,AcType,Plan,Route,Fuel,PIC) values('" &
+        Dim savenew As String = "INSERT INTO [flightplan]  (FltNum,DepTair,ArrAir,ETA,Gate,AcType,Plan,Route,Fuel,PIC) values('" &
         FltNum.Text & "','" &
         DeptAir.Text & "','" &
         ArrAir.Text & "','" &

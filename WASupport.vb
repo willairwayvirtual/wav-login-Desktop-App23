@@ -32,7 +32,7 @@ Public Class WASupport
             .Connection = conn
             .ExecuteNonQuery()
         End With
-        MessageBox.Show("Query Filed")
+        MessageBox.Show("Query Filed - you will a response between 24 and 48 hours")
 
         conn.Close()
 
