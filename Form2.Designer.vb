@@ -25,6 +25,7 @@ Partial Class Form2
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -52,11 +53,23 @@ Partial Class Form2
         Me.Button2.Text = "open willairwayvirtual a cars"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button3
+        '
+        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
+        Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button3.Location = New System.Drawing.Point(794, 1)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(252, 162)
+        Me.Button3.TabIndex = 4
+        Me.Button3.Text = "wavschedule"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 159)
+        Me.ClientSize = New System.Drawing.Size(1042, 157)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -70,4 +83,5 @@ Partial Class Form2
     End Sub
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
 End Class
