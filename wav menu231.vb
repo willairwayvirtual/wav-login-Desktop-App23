@@ -41,4 +41,12 @@
 
 
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        connect.Show()
+        Me.Close()
+
+
+
+    End Sub
 End Class

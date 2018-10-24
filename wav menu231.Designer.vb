@@ -38,6 +38,7 @@ Partial Class Form1
         Me.Label25 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Button63 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -203,12 +204,25 @@ Partial Class Form1
         Me.Button63.Text = "Flight closing"
         Me.Button63.UseVisualStyleBackColor = False
         '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.Location = New System.Drawing.Point(659, -6)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(206, 83)
+        Me.Button6.TabIndex = 81
+        Me.Button6.Text = "go to a cars"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(859, 450)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.pictureBox11)
@@ -254,4 +268,5 @@ Partial Class Form1
     Friend WithEvents Label25 As Label
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Button63 As Button
+    Friend WithEvents Button6 As Button
 End Class

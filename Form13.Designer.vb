@@ -37,6 +37,7 @@ Partial Class Form132
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.pictureBox11 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Button7 = New System.Windows.Forms.Button()
         CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -192,12 +193,25 @@ Partial Class Form132
         Me.DateTimePicker1.Size = New System.Drawing.Size(272, 40)
         Me.DateTimePicker1.TabIndex = 77
         '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Button7.Location = New System.Drawing.Point(691, 1)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(197, 63)
+        Me.Button7.TabIndex = 78
+        Me.Button7.Text = "go to a cars"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
         'Form132
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(884, 450)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.pictureBox11)
         Me.Controls.Add(Me.PictureBox5)
@@ -240,4 +254,5 @@ Partial Class Form132
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents pictureBox11 As PictureBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Button7 As Button
 End Class
