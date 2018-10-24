@@ -36,6 +36,8 @@ Public Class main_login
         'checking the result
         If userFound = True Then
             Form2.Show()
+            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member "
+
 
 
             Me.Close()

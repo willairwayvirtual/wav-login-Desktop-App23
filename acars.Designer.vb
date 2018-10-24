@@ -196,7 +196,7 @@ Partial Class acars
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Lime
-        Me.Label3.Location = New System.Drawing.Point(89, 375)
+        Me.Label3.Location = New System.Drawing.Point(-4, 66)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(144, 24)
         Me.Label3.TabIndex = 22
@@ -205,9 +205,9 @@ Partial Class acars
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 374)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 93)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(83, 36)
+        Me.PictureBox1.Size = New System.Drawing.Size(83, 35)
         Me.PictureBox1.TabIndex = 23
         Me.PictureBox1.TabStop = False
         '
@@ -216,7 +216,7 @@ Partial Class acars
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(808, 405)
+        Me.ClientSize = New System.Drawing.Size(808, 416)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button3)

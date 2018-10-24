@@ -27,6 +27,7 @@ Partial Class Form2
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -49,7 +50,7 @@ Partial Class Form2
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.Location = New System.Drawing.Point(398, 45)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(401, 162)
+        Me.Button2.Size = New System.Drawing.Size(411, 162)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "open willairwayvirtual a cars"
         Me.Button2.UseVisualStyleBackColor = False
@@ -58,7 +59,7 @@ Partial Class Form2
         '
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(793, 40)
+        Me.Button3.Location = New System.Drawing.Point(806, 45)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(252, 167)
         Me.Button3.TabIndex = 4
@@ -69,18 +70,29 @@ Partial Class Form2
         '
         Me.Button4.BackColor = System.Drawing.Color.Red
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(-7, -3)
+        Me.Button4.Location = New System.Drawing.Point(-7, 194)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(1075, 54)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "log out"
         Me.Button4.UseVisualStyleBackColor = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(13, 6)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(139, 39)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Label11"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1042, 207)
+        Me.ClientSize = New System.Drawing.Size(1042, 249)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -92,10 +104,12 @@ Partial Class Form2
         Me.Name = "Form2"
         Me.Text = "open willairwayvirtual Menu"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Label1 As Label
 End Class
