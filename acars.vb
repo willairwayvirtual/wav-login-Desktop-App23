@@ -73,9 +73,14 @@ Public Class acars
         Else
             conn.Close()
         End If
-        Dim savenew As String = "INSERT INTO [acars_log]  (Fltnum,lblTimer) values('" &
+        Dim savenew As String = "INSERT INTO [acars_log]  (Fltnum,lblTimer,Uname) values('" &
             TextBox1.Text & "','" &
-           lblTimer.Text & "');"
+            lblTimer.Text & "','" &
+        Uname.Text & "');"
+
+
+
+
 
         Dim cmd As New OleDbCommand
 
@@ -89,6 +94,13 @@ Public Class acars
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Form2.Show()
+        Me.Close()
+
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Form1.Show()
         Me.Close()
 
 

@@ -178,6 +178,12 @@
     <Compile Include="wav menu231.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="wavschedule.designer.vb">
+      <DependentUpon>wavschedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wavschedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="acars.resx">
@@ -228,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="wav menu231.resx">
       <DependentUpon>wav menu231.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wavschedule.resx">
+      <DependentUpon>wavschedule.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
