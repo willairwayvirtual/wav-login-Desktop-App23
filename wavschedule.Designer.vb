@@ -36,6 +36,7 @@ Partial Class wavschedule
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -43,7 +44,7 @@ Partial Class wavschedule
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(185, 9)
+        Me.Label1.Location = New System.Drawing.Point(165, 3)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(111, 29)
         Me.Label1.TabIndex = 2
@@ -53,7 +54,7 @@ Partial Class wavschedule
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(330, 9)
+        Me.Label4.Location = New System.Drawing.Point(315, 3)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(97, 29)
         Me.Label4.TabIndex = 7
@@ -63,7 +64,7 @@ Partial Class wavschedule
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(482, 9)
+        Me.Label3.Location = New System.Drawing.Point(450, 3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(83, 29)
         Me.Label3.TabIndex = 9
@@ -71,7 +72,7 @@ Partial Class wavschedule
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(771, 0)
+        Me.Button2.Location = New System.Drawing.Point(735, 0)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(132, 72)
         Me.Button2.TabIndex = 12
@@ -101,13 +102,13 @@ Partial Class wavschedule
         Me.DataGridView1.GridColor = System.Drawing.Color.Silver
         Me.DataGridView1.Location = New System.Drawing.Point(0, 78)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(903, 392)
+        Me.DataGridView1.Size = New System.Drawing.Size(982, 392)
         Me.DataGridView1.TabIndex = 14
         '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(166, 41)
+        Me.TextBox4.Location = New System.Drawing.Point(153, 41)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(141, 31)
         Me.TextBox4.TabIndex = 16
@@ -115,7 +116,7 @@ Partial Class wavschedule
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(323, 41)
+        Me.TextBox2.Location = New System.Drawing.Point(315, 41)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(104, 31)
         Me.TextBox2.TabIndex = 17
@@ -123,16 +124,16 @@ Partial Class wavschedule
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(458, 41)
+        Me.TextBox3.Location = New System.Drawing.Point(425, 41)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(136, 31)
         Me.TextBox3.TabIndex = 18
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(619, 0)
+        Me.Button1.Location = New System.Drawing.Point(567, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(146, 72)
+        Me.Button1.Size = New System.Drawing.Size(174, 72)
         Me.Button1.TabIndex = 19
         Me.Button1.Text = "Search Schedule"
         Me.Button1.UseVisualStyleBackColor = True
@@ -141,7 +142,7 @@ Partial Class wavschedule
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 9)
+        Me.Label2.Location = New System.Drawing.Point(12, 3)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(92, 29)
         Me.Label2.TabIndex = 20
@@ -150,17 +151,27 @@ Partial Class wavschedule
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(12, 41)
+        Me.TextBox1.Location = New System.Drawing.Point(17, 41)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(105, 31)
         Me.TextBox1.TabIndex = 21
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(860, 0)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(120, 72)
+        Me.Button3.TabIndex = 22
+        Me.Button3.Text = "go to FlightPlan"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'wavschedule
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(904, 450)
+        Me.ClientSize = New System.Drawing.Size(983, 450)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
@@ -193,4 +204,5 @@ Partial Class wavschedule
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button3 As Button
 End Class

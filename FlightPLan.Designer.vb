@@ -242,7 +242,7 @@ Partial Class WavFlightPlan
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(823, 118)
+        Me.Button2.Location = New System.Drawing.Point(808, 141)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(186, 35)
         Me.Button2.TabIndex = 21
@@ -279,7 +279,7 @@ Partial Class WavFlightPlan
         '
         'PIC
         '
-        Me.PIC.Location = New System.Drawing.Point(484, 104)
+        Me.PIC.Location = New System.Drawing.Point(643, 115)
         Me.PIC.Name = "PIC"
         Me.PIC.Size = New System.Drawing.Size(174, 20)
         Me.PIC.TabIndex = 27
@@ -288,7 +288,7 @@ Partial Class WavFlightPlan
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(484, 77)
+        Me.Label12.Location = New System.Drawing.Point(647, 88)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(158, 24)
         Me.Label12.TabIndex = 28
