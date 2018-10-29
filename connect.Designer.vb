@@ -34,7 +34,7 @@ Partial Class connect
         '
         Me.ProgressBar1.Location = New System.Drawing.Point(2, -9)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(829, 180)
+        Me.ProgressBar1.Size = New System.Drawing.Size(860, 180)
         Me.ProgressBar1.TabIndex = 0
         '
         'Timer1
@@ -44,11 +44,11 @@ Partial Class connect
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(2, 169)
+        Me.Button1.Location = New System.Drawing.Point(-7, 169)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(820, 49)
+        Me.Button1.Size = New System.Drawing.Size(865, 49)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "connect to Flight Simulator"
+        Me.Button1.Text = "connect to Flight Simulator please wait for progress bar to finish"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -56,7 +56,7 @@ Partial Class connect
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(-7, 215)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(829, 51)
+        Me.Button2.Size = New System.Drawing.Size(865, 51)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "now open a cars"
         Me.Button2.UseVisualStyleBackColor = True
@@ -65,7 +65,7 @@ Partial Class connect
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(808, 266)
+        Me.ClientSize = New System.Drawing.Size(855, 266)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ProgressBar1)
