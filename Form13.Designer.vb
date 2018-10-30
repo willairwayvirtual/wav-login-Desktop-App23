@@ -131,11 +131,11 @@ Partial Class Form132
         '
         Me.Button5.BackColor = System.Drawing.Color.Red
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(-10, 397)
+        Me.Button5.Location = New System.Drawing.Point(1, 397)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(987, 56)
         Me.Button5.TabIndex = 66
-        Me.Button5.Text = "LOG OUT back to the "
+        Me.Button5.Text = "LOG OUT back to the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "choose sceen"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'PictureBox3
