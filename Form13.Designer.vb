@@ -135,7 +135,7 @@ Partial Class Form132
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(987, 56)
         Me.Button5.TabIndex = 66
-        Me.Button5.Text = "LOG OUT"
+        Me.Button5.Text = "LOG OUT back to the "
         Me.Button5.UseVisualStyleBackColor = False
         '
         'PictureBox3

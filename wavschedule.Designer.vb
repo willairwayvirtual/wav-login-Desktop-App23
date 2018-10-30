@@ -72,11 +72,11 @@ Partial Class wavschedule
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(735, 0)
+        Me.Button2.Location = New System.Drawing.Point(738, 0)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(132, 72)
         Me.Button2.TabIndex = 12
-        Me.Button2.Text = "back"
+        Me.Button2.Text = "back to the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "choose sceen"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'DataGridView1
@@ -100,9 +100,9 @@ Partial Class wavschedule
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.GridColor = System.Drawing.Color.Silver
-        Me.DataGridView1.Location = New System.Drawing.Point(0, 78)
+        Me.DataGridView1.Location = New System.Drawing.Point(-1, 78)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(982, 392)
+        Me.DataGridView1.Size = New System.Drawing.Size(982, 407)
         Me.DataGridView1.TabIndex = 14
         '
         'TextBox4
@@ -160,7 +160,7 @@ Partial Class wavschedule
         '
         Me.Button3.Location = New System.Drawing.Point(860, 0)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(120, 72)
+        Me.Button3.Size = New System.Drawing.Size(138, 72)
         Me.Button3.TabIndex = 22
         Me.Button3.Text = "go to FlightPlan"
         Me.Button3.UseVisualStyleBackColor = True

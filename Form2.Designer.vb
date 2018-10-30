@@ -71,9 +71,9 @@ Partial Class Form2
         '
         Me.Button4.BackColor = System.Drawing.Color.Red
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(4, 202)
+        Me.Button4.Location = New System.Drawing.Point(-39, 202)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(1253, 54)
+        Me.Button4.Size = New System.Drawing.Size(1296, 54)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "log out"
         Me.Button4.UseVisualStyleBackColor = False
