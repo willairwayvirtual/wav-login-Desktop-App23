@@ -71,7 +71,7 @@ Partial Class Form2
         '
         Me.Button4.BackColor = System.Drawing.Color.Red
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(-7, 194)
+        Me.Button4.Location = New System.Drawing.Point(4, 202)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(1253, 54)
         Me.Button4.TabIndex = 5
@@ -92,9 +92,9 @@ Partial Class Form2
         '
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.Location = New System.Drawing.Point(1065, 45)
+        Me.Button5.Location = New System.Drawing.Point(1054, 44)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(181, 143)
+        Me.Button5.Size = New System.Drawing.Size(203, 162)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "check in"
         Me.Button5.UseVisualStyleBackColor = True
