@@ -168,16 +168,18 @@ Partial Class Reporting
         '
         'DataGridView1
         '
-        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.Blue
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(-7, 106)
+        Me.DataGridView1.GridColor = System.Drawing.Color.Snow
+        Me.DataGridView1.Location = New System.Drawing.Point(-18, 106)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1271, 604)
+        Me.DataGridView1.Size = New System.Drawing.Size(1297, 604)
         Me.DataGridView1.TabIndex = 34
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button2.Location = New System.Drawing.Point(1065, 48)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(214, 52)

@@ -28,6 +28,7 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -72,7 +73,7 @@ Partial Class Form2
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(-7, 194)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(1075, 54)
+        Me.Button4.Size = New System.Drawing.Size(1253, 54)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "log out"
         Me.Button4.UseVisualStyleBackColor = False
@@ -87,11 +88,23 @@ Partial Class Form2
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Label11"
         '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
+        Me.Button5.Location = New System.Drawing.Point(1065, 45)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(181, 143)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "check in"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1042, 249)
+        Me.ClientSize = New System.Drawing.Size(1258, 249)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -112,4 +125,5 @@ Partial Class Form2
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button5 As Button
 End Class
