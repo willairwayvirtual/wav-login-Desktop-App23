@@ -30,8 +30,19 @@ Public Class Reporting
         DataGridView1.DataSource = dt.DefaultView
     End Sub
 
-    Private Sub button2_Click(sender As Object, e As EventArgs)
+
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Form1.Show()
         Me.Close()
+
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Form2.Show()
+        Me.Close()
+
+
     End Sub
 End Class
