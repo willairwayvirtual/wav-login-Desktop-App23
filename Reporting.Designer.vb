@@ -86,7 +86,7 @@ Partial Class Reporting
         '
         Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.ForeColor = System.Drawing.Color.Gray
-        Me.button1.Location = New System.Drawing.Point(794, 45)
+        Me.button1.Location = New System.Drawing.Point(796, 45)
         Me.button1.Name = "button1"
         Me.button1.Size = New System.Drawing.Size(262, 52)
         Me.button1.TabIndex = 24
