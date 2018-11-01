@@ -49,6 +49,8 @@ Partial Class WavFlightPlan
         Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.PIC = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Network = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Route
@@ -242,9 +244,9 @@ Partial Class WavFlightPlan
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(808, 141)
+        Me.Button2.Location = New System.Drawing.Point(837, 138)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(186, 35)
+        Me.Button2.Size = New System.Drawing.Size(177, 35)
         Me.Button2.TabIndex = 21
         Me.Button2.Text = "back menu"
         Me.Button2.UseVisualStyleBackColor = True
@@ -279,7 +281,7 @@ Partial Class WavFlightPlan
         '
         'PIC
         '
-        Me.PIC.Location = New System.Drawing.Point(643, 115)
+        Me.PIC.Location = New System.Drawing.Point(489, 115)
         Me.PIC.Name = "PIC"
         Me.PIC.Size = New System.Drawing.Size(174, 20)
         Me.PIC.TabIndex = 27
@@ -288,11 +290,29 @@ Partial Class WavFlightPlan
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(647, 88)
+        Me.Label12.Location = New System.Drawing.Point(489, 88)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(158, 24)
         Me.Label12.TabIndex = 28
         Me.Label12.Text = "Pilot in Command"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(701, 89)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(107, 24)
+        Me.Label13.TabIndex = 29
+        Me.Label13.Text = "NETWORK"
+        '
+        'Network
+        '
+        Me.Network.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Network.Location = New System.Drawing.Point(692, 114)
+        Me.Network.Name = "Network"
+        Me.Network.Size = New System.Drawing.Size(116, 20)
+        Me.Network.TabIndex = 30
         '
         'WavFlightPlan
         '
@@ -300,6 +320,8 @@ Partial Class WavFlightPlan
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(1006, 530)
+        Me.Controls.Add(Me.Network)
+        Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.PIC)
         Me.Controls.Add(Me.TextBox10)
@@ -363,4 +385,6 @@ Partial Class WavFlightPlan
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents PIC As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Network As TextBox
 End Class
