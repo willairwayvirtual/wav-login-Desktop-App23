@@ -178,6 +178,12 @@
     <Compile Include="wav menu231.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="wavBooking.Designer.vb">
+      <DependentUpon>wavBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wavBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="wavschedule.designer.vb">
       <DependentUpon>wavschedule.vb</DependentUpon>
     </Compile>
@@ -234,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="wav menu231.resx">
       <DependentUpon>wav menu231.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wavBooking.resx">
+      <DependentUpon>wavBooking.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wavschedule.resx">
       <DependentUpon>wavschedule.vb</DependentUpon>

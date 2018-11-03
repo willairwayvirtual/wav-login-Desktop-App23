@@ -61,7 +61,7 @@ Partial Class WASupport
         Me.Qry.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Qry.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Qry.ForeColor = System.Drawing.SystemColors.Info
-        Me.Qry.Location = New System.Drawing.Point(0, 197)
+        Me.Qry.Location = New System.Drawing.Point(-6, 217)
         Me.Qry.Multiline = True
         Me.Qry.Name = "Qry"
         Me.Qry.Size = New System.Drawing.Size(1182, 419)
