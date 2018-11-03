@@ -36,6 +36,8 @@ Partial Class WavBooking
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'FltNum
@@ -65,7 +67,7 @@ Partial Class WavBooking
         'DeptAir
         '
         Me.DeptAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DeptAir.Location = New System.Drawing.Point(2, 129)
+        Me.DeptAir.Location = New System.Drawing.Point(2, 130)
         Me.DeptAir.Name = "DeptAir"
         Me.DeptAir.Size = New System.Drawing.Size(224, 35)
         Me.DeptAir.TabIndex = 3
@@ -73,7 +75,7 @@ Partial Class WavBooking
         'Uname
         '
         Me.Uname.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Uname.Location = New System.Drawing.Point(2, 337)
+        Me.Uname.Location = New System.Drawing.Point(2, 338)
         Me.Uname.Name = "Uname"
         Me.Uname.Size = New System.Drawing.Size(224, 35)
         Me.Uname.TabIndex = 4
@@ -92,7 +94,7 @@ Partial Class WavBooking
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(54, 25)
+        Me.Label2.Location = New System.Drawing.Point(54, 26)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(91, 29)
         Me.Label2.TabIndex = 6
@@ -150,7 +152,7 @@ Partial Class WavBooking
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(54, 375)
+        Me.Label7.Location = New System.Drawing.Point(67, 375)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(60, 29)
         Me.Label7.TabIndex = 12
@@ -159,19 +161,41 @@ Partial Class WavBooking
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(2, 445)
+        Me.Button1.Location = New System.Drawing.Point(2, 468)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(224, 46)
         Me.Button1.TabIndex = 13
         Me.Button1.Text = "Confirm your booking"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(2, 510)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(224, 44)
+        Me.Button2.TabIndex = 14
+        Me.Button2.Text = "back to wavschedule"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Red
+        Me.Label8.Location = New System.Drawing.Point(31, 445)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(165, 20)
+        Me.Label8.TabIndex = 15
+        Me.Label8.Text = "please use shot dates"
+        '
         'WavBooking
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(223, 492)
+        Me.ClientSize = New System.Drawing.Size(223, 556)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -208,4 +232,6 @@ Partial Class WavBooking
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Label8 As Label
 End Class

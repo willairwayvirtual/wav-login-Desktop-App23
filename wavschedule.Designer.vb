@@ -102,7 +102,7 @@ Partial Class wavschedule
         Me.DataGridView1.GridColor = System.Drawing.Color.Silver
         Me.DataGridView1.Location = New System.Drawing.Point(-1, 88)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(982, 397)
+        Me.DataGridView1.Size = New System.Drawing.Size(1027, 397)
         Me.DataGridView1.TabIndex = 14
         '
         'TextBox4
@@ -161,7 +161,7 @@ Partial Class wavschedule
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(860, 0)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(138, 72)
+        Me.Button3.Size = New System.Drawing.Size(166, 72)
         Me.Button3.TabIndex = 22
         Me.Button3.Text = "go to book a " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "flght"
         Me.Button3.UseVisualStyleBackColor = True
@@ -171,7 +171,7 @@ Partial Class wavschedule
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(983, 450)
+        Me.ClientSize = New System.Drawing.Size(1029, 450)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
