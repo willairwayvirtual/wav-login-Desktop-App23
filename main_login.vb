@@ -23,6 +23,7 @@ Public Class main_login
         Dim FirstName As String = ""
         Dim LastName As String = ""
         Dim Status As String = ""
+        Dim totalHours As String = ""
 
         'if found:
         While dr.Read
@@ -30,13 +31,14 @@ Public Class main_login
             FirstName = dr("FName").ToString
             LastName = dr("LName").ToString
             Status = dr("status").ToString
+            TotalHours = dr("TotalHours").ToString
 
         End While
 
         'checking the result
         If userFound = True Then
             Form2.Show()
-            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member "
+            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours & " Hours"
 
 
 
