@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class main_login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class main_login
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main_login))
         Me.Label1 = New System.Windows.Forms.Label()
@@ -132,11 +132,11 @@ Partial Class main_login
         'Button32
         '
         Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button32.ForeColor = System.Drawing.Color.White
-        Me.Button32.Location = New System.Drawing.Point(373, 224)
+        Me.Button32.Location = New System.Drawing.Point(373, 233)
         Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(324, 63)
+        Me.Button32.Size = New System.Drawing.Size(324, 54)
         Me.Button32.TabIndex = 10
         Me.Button32.Text = "Forgotten your password?"
         Me.Button32.UseVisualStyleBackColor = False

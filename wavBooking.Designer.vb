@@ -173,7 +173,7 @@ Partial Class WavBooking
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(2, 510)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(224, 44)
+        Me.Button2.Size = New System.Drawing.Size(224, 53)
         Me.Button2.TabIndex = 14
         Me.Button2.Text = "back to wavschedule"
         Me.Button2.UseVisualStyleBackColor = True

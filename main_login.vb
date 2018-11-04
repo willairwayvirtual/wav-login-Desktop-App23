@@ -24,6 +24,7 @@ Public Class main_login
         Dim LastName As String = ""
         Dim Status As String = ""
         Dim totalHours As String = ""
+        Dim lastflight As String = ""
 
         'if found:
         While dr.Read
@@ -31,14 +32,17 @@ Public Class main_login
             FirstName = dr("FName").ToString
             LastName = dr("LName").ToString
             Status = dr("status").ToString
-            TotalHours = dr("TotalHours").ToString
+            totalHours = dr("TotalHours").ToString
+            lastflight = dr("lastflight").ToString
+
 
         End While
 
         'checking the result
         If userFound = True Then
             Form2.Show()
-            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours & " Hours"
+            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours &
+                " Hours Last flight " & lastflight
 
 
 
@@ -71,10 +75,12 @@ Public Class main_login
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button32.Click
+    Private Sub Button3Click(sender As Object, e As EventArgs) Handles Button32.Click
         ResetPword.Show()
         Me.Close()
     End Sub
+
+
 
     Private Sub txtUsername_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
 
