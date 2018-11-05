@@ -171,7 +171,7 @@ Partial Class Reporting
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.Blue
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.GridColor = System.Drawing.Color.DarkGray
+        Me.DataGridView1.GridColor = System.Drawing.Color.Black
         Me.DataGridView1.Location = New System.Drawing.Point(-5, 115)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(1269, 617)
