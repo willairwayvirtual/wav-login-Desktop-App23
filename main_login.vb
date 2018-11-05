@@ -41,7 +41,7 @@ Public Class main_login
         'checking the result
         If userFound = True Then
             Form2.Show()
-            Form2.Label1.Text = "Hello " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours &
+            Form2.Label1.Text = "Hi " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours &
                 " Hours Last flight " & lastflight
 
 
