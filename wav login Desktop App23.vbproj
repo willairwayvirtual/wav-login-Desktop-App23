@@ -210,6 +210,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>willairwayvirtualDbv1DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="willairwayvirtualDbv1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>willairwayvirtualDbv1DataSet1.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="acars.resx">
@@ -289,6 +294,17 @@
     </None>
     <None Include="willairwayvirtualDbv1DataSet.xss">
       <DependentUpon>willairwayvirtualDbv1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="willairwayvirtualDbv1DataSet1.xsc">
+      <DependentUpon>willairwayvirtualDbv1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="willairwayvirtualDbv1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>willairwayvirtualDbv1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="willairwayvirtualDbv1DataSet1.xss">
+      <DependentUpon>willairwayvirtualDbv1DataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

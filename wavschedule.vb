@@ -4,8 +4,11 @@ Public Class wavschedule
         Dim dataFile As String
         Dim connString As String
         Dim conn As OleDbConnection = New OleDbConnection
+    Public Property stringtext2 As String
 
-
+    Private Sub wavschedule_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Label5.Text = stringtext2
+    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         provider = "Provider = Microsoft.ACE.OLEDB.12.0;Data Source ="
@@ -47,7 +50,11 @@ Public Class wavschedule
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Form2.Show()
+        Dim obj As New Form2
+        obj.stringtext1 = stringtext2
+        obj.Show()
+
+
         Me.Close()
 
 
@@ -65,5 +72,11 @@ Public Class wavschedule
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
 
     End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+
 End Class
 

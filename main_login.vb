@@ -40,13 +40,11 @@ Public Class main_login
 
         'checking the result
         If userFound = True Then
-            Form2.Show()
-            Form2.Label1.Text = "Hi " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours &
+
+            Dim obj As New Form2
+            obj.stringtext1 = "Hi " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours &
                 " Hours Last flight " & lastflight
-
-
-
-
+            obj.Show()
             Me.Close()
         Else
             MsgBox("Sorry, username or password not found", MsgBoxStyle.OkOnly, "Invalid Login")
