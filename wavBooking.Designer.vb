@@ -22,6 +22,7 @@ Partial Class WavBooking
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WavBooking))
         Me.FltNum = New System.Windows.Forms.TextBox()
         Me.deptime = New System.Windows.Forms.TextBox()
         Me.ArrAir = New System.Windows.Forms.TextBox()
@@ -185,9 +186,9 @@ Partial Class WavBooking
         Me.Label8.ForeColor = System.Drawing.Color.Red
         Me.Label8.Location = New System.Drawing.Point(31, 445)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(165, 20)
+        Me.Label8.Size = New System.Drawing.Size(170, 20)
         Me.Label8.TabIndex = 15
-        Me.Label8.Text = "please use shot dates"
+        Me.Label8.Text = "please use short dates"
         '
         'WavBooking
         '
@@ -212,6 +213,7 @@ Partial Class WavBooking
         Me.Controls.Add(Me.deptime)
         Me.Controls.Add(Me.FltNum)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WavBooking"
         Me.Text = "book a flght"
         Me.ResumeLayout(False)

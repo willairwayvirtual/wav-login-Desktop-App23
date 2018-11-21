@@ -42,26 +42,26 @@ Partial Class ResetPword
         'USName
         '
         Me.USName.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.USName.Location = New System.Drawing.Point(185, 78)
+        Me.USName.Location = New System.Drawing.Point(303, 78)
         Me.USName.Name = "USName"
-        Me.USName.Size = New System.Drawing.Size(372, 40)
+        Me.USName.Size = New System.Drawing.Size(250, 40)
         Me.USName.TabIndex = 0
         '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(162, 191)
+        Me.TextBox2.Location = New System.Drawing.Point(303, 137)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(395, 40)
+        Me.TextBox2.Size = New System.Drawing.Size(250, 40)
         Me.TextBox2.TabIndex = 1
         '
         'CNewPword
         '
         Me.CNewPword.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CNewPword.Location = New System.Drawing.Point(162, 270)
+        Me.CNewPword.Location = New System.Drawing.Point(303, 202)
         Me.CNewPword.Name = "CNewPword"
         Me.CNewPword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.CNewPword.Size = New System.Drawing.Size(395, 44)
+        Me.CNewPword.Size = New System.Drawing.Size(250, 44)
         Me.CNewPword.TabIndex = 2
         '
         'Label1
@@ -76,7 +76,7 @@ Partial Class ResetPword
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(226, 2)
+        Me.Label2.Location = New System.Drawing.Point(4, 42)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(243, 33)
         Me.Label2.TabIndex = 4
@@ -85,31 +85,31 @@ Partial Class ResetPword
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(275, 42)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 81)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(155, 33)
+        Me.Label3.Size = New System.Drawing.Size(110, 25)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "UserName"
+        Me.Label3.Text = "User Name"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(213, 155)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(12, 152)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(217, 33)
+        Me.Label4.Size = New System.Drawing.Size(147, 25)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "New Password "
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(196, 234)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(12, 202)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(328, 33)
+        Me.Label5.Size = New System.Drawing.Size(220, 25)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Confirm New Password "
         '
@@ -117,9 +117,9 @@ Partial Class ResetPword
         '
         Me.Button1.BackColor = System.Drawing.Color.Yellow
         Me.Button1.ForeColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(-5, 310)
+        Me.Button1.Location = New System.Drawing.Point(2, 230)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(654, 59)
+        Me.Button1.Size = New System.Drawing.Size(284, 54)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Update Password "
         Me.Button1.UseVisualStyleBackColor = False
@@ -128,18 +128,18 @@ Partial Class ResetPword
         '
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker1.Location = New System.Drawing.Point(464, 2)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(289, 12)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(206, 49)
         Me.DateTimePicker1.TabIndex = 10
         '
         'Button23
         '
-        Me.Button23.Location = New System.Drawing.Point(70, -2)
+        Me.Button23.Location = New System.Drawing.Point(81, 2)
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(166, 37)
         Me.Button23.TabIndex = 29
-        Me.Button23.Text = "back to the log scren"
+        Me.Button23.Text = "back to the login screen"
         Me.Button23.UseVisualStyleBackColor = True
         '
         'PictureBox2
@@ -156,18 +156,17 @@ Partial Class ResetPword
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.DarkCyan
-        Me.Label6.Location = New System.Drawing.Point(180, 121)
+        Me.Label6.Location = New System.Drawing.Point(13, 116)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(324, 29)
+        Me.Label6.Size = New System.Drawing.Size(273, 29)
         Me.Label6.TabIndex = 31
-        Me.Label6.Text = "You need to have between 4 "
+        Me.Label6.Text = "Minimum of 4 characters"
         '
         'ResetPword
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(641, 367)
+        Me.ClientSize = New System.Drawing.Size(570, 281)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button23)

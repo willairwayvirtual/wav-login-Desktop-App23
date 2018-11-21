@@ -71,7 +71,7 @@ Partial Class Form132
         Me.Button63.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Button63.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button63.ForeColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button63.Location = New System.Drawing.Point(683, 70)
+        Me.Button63.Location = New System.Drawing.Point(683, 79)
         Me.Button63.Name = "Button63"
         Me.Button63.Size = New System.Drawing.Size(205, 70)
         Me.Button63.TabIndex = 61
@@ -198,9 +198,9 @@ Partial Class Form132
         Me.Button7.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button7.Location = New System.Drawing.Point(691, 1)
+        Me.Button7.Location = New System.Drawing.Point(683, 12)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(197, 63)
+        Me.Button7.Size = New System.Drawing.Size(205, 63)
         Me.Button7.TabIndex = 78
         Me.Button7.Text = "go to a cars"
         Me.Button7.UseVisualStyleBackColor = False
