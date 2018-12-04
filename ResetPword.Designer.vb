@@ -58,7 +58,7 @@ Partial Class ResetPword
         'CNewPword
         '
         Me.CNewPword.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CNewPword.Location = New System.Drawing.Point(303, 202)
+        Me.CNewPword.Location = New System.Drawing.Point(303, 190)
         Me.CNewPword.Name = "CNewPword"
         Me.CNewPword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.CNewPword.Size = New System.Drawing.Size(250, 44)
@@ -117,9 +117,9 @@ Partial Class ResetPword
         '
         Me.Button1.BackColor = System.Drawing.Color.Yellow
         Me.Button1.ForeColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(2, 230)
+        Me.Button1.Location = New System.Drawing.Point(-5, 240)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(284, 54)
+        Me.Button1.Size = New System.Drawing.Size(590, 41)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Update Password "
         Me.Button1.UseVisualStyleBackColor = False
@@ -128,7 +128,7 @@ Partial Class ResetPword
         '
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker1.Location = New System.Drawing.Point(289, 12)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(271, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(206, 49)
         Me.DateTimePicker1.TabIndex = 10

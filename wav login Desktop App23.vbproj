@@ -181,12 +181,6 @@
     <Compile Include="Splash.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WASupport.Designer.vb">
-      <DependentUpon>WASupport.vb</DependentUpon>
-    </Compile>
-    <Compile Include="WASupport.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="wav menu231.Designer.vb">
       <DependentUpon>wav menu231.vb</DependentUpon>
     </Compile>
@@ -203,6 +197,12 @@
       <DependentUpon>wavschedule.vb</DependentUpon>
     </Compile>
     <Compile Include="wavschedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="willairways VIRTUAL It Help desk.designer.vb">
+      <DependentUpon>willairways VIRTUAL It Help desk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="willairways VIRTUAL It Help desk.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="willairwayvirtualDbv1DataSet.Designer.vb">
@@ -260,9 +260,6 @@
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WASupport.resx">
-      <DependentUpon>WASupport.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="wav menu231.resx">
       <DependentUpon>wav menu231.vb</DependentUpon>
     </EmbeddedResource>
@@ -271,6 +268,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="wavschedule.resx">
       <DependentUpon>wavschedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="willairways VIRTUAL It Help desk.resx">
+      <DependentUpon>willairways VIRTUAL It Help desk.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -223,9 +223,9 @@ Partial Class acars
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(0, 58)
+        Me.Button4.Location = New System.Drawing.Point(0, 55)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(184, 70)
+        Me.Button4.Size = New System.Drawing.Size(172, 70)
         Me.Button4.TabIndex = 26
         Me.Button4.Text = "back to wav menu23"
         Me.Button4.UseVisualStyleBackColor = True
