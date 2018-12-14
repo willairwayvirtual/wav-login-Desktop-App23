@@ -13,7 +13,7 @@ Public Class ITHELPDESK
         smtp.Credentials = New System.Net.NetworkCredential("willjones97@hotmail.com", "spongebob")
         smtp.Port = "587"
         smtp.Send(mail)
-        MsgBox("Ticket sent by email")
+        MsgBox("You will receive an automated response ")
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
