@@ -76,7 +76,7 @@ Partial Class ResetPword
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(4, 42)
+        Me.Label2.Location = New System.Drawing.Point(-11, 48)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(243, 33)
         Me.Label2.TabIndex = 4

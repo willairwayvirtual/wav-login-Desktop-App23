@@ -119,7 +119,7 @@ Partial Class create_reg
         '
         Me.FIRST.AutoSize = True
         Me.FIRST.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FIRST.Location = New System.Drawing.Point(41, 108)
+        Me.FIRST.Location = New System.Drawing.Point(50, 108)
         Me.FIRST.Name = "FIRST"
         Me.FIRST.Size = New System.Drawing.Size(116, 25)
         Me.FIRST.TabIndex = 15
@@ -180,7 +180,7 @@ Partial Class create_reg
         '
         Me.conf_pword.AutoSize = True
         Me.conf_pword.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.conf_pword.Location = New System.Drawing.Point(41, 418)
+        Me.conf_pword.Location = New System.Drawing.Point(40, 418)
         Me.conf_pword.Name = "conf_pword"
         Me.conf_pword.Size = New System.Drawing.Size(186, 25)
         Me.conf_pword.TabIndex = 22

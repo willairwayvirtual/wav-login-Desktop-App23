@@ -205,16 +205,6 @@
     <Compile Include="willairways VIRTUAL It Help desk.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="willairwayvirtualDbv1DataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>willairwayvirtualDbv1DataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="willairwayvirtualDbv1DataSet1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>willairwayvirtualDbv1DataSet1.xsd</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="acars.resx">
@@ -284,28 +274,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="willairwayvirtualDbv1DataSet.xsc">
-      <DependentUpon>willairwayvirtualDbv1DataSet.xsd</DependentUpon>
-    </None>
-    <None Include="willairwayvirtualDbv1DataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>willairwayvirtualDbv1DataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="willairwayvirtualDbv1DataSet.xss">
-      <DependentUpon>willairwayvirtualDbv1DataSet.xsd</DependentUpon>
-    </None>
-    <None Include="willairwayvirtualDbv1DataSet1.xsc">
-      <DependentUpon>willairwayvirtualDbv1DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="willairwayvirtualDbv1DataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>willairwayvirtualDbv1DataSet1.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="willairwayvirtualDbv1DataSet1.xss">
-      <DependentUpon>willairwayvirtualDbv1DataSet1.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -318,11 +286,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="willairwayvirtualDbv1.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

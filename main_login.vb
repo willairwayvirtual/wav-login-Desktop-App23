@@ -15,7 +15,7 @@ Public Class main_login
         myConnection.ConnectionString = connString
         myConnection.Open()
         'the query:
-        Dim cmd As OleDbCommand = New OleDbCommand("SELECT * FROM [tblaccessinfo] WHERE [Uname] = '" & txtUsername.Text & "' AND [Pword] = '" & txtPassword.Text & "'", myConnection)
+        Dim cmd As OleDbCommand = New OleDbCommand("Select * FROM [tblaccessinfo] WHERE [Uname] = '" & txtUsername.Text & "' AND [Pword] = '" & txtPassword.Text & "'", myConnection)
         Dim dr As OleDbDataReader = cmd.ExecuteReader
         ' the following variable is hold true if user is found, and false if user is not found 
         Dim userFound As Boolean = False

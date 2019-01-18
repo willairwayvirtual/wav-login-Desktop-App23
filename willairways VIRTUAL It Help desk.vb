@@ -4,7 +4,7 @@ Public Class ITHELPDESK
     Private Sub Send_ticket_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Send_Ticket.Click
         Dim mail As New MailMessage
         mail.Subject = MailSubject.Text
-        mail.To.Add("wavithelpdesk@hotmail.com")
+        mail.To.Add("Wavuserhelpdesk@hotmail.com")
         mail.From = New MailAddress(Umail.Text)
         mail.Body = Qry.Text
 
