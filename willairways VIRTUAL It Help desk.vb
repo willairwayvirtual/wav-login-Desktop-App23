@@ -4,14 +4,17 @@ Public Class ITHELPDESK
     Private Sub Send_ticket_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Send_Ticket.Click
         Dim mail As New MailMessage
         mail.Subject = MailSubject.Text
+        ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
         mail.To.Add("Wavuserhelpdesk@hotmail.com")
-        mail.From = New MailAddress(Umail.Text)
-        mail.Body = Qry.Text
+        mail.From = New MailAddress("willjones97@hotmail.com")
+        mail.Body = "From: " & (Umail.Text) & " Query Text: " & Qry.Text
 
         Dim smtp As New SmtpClient("smtp-mail.outlook.com")
+        'Dim smtp As New SmtpClient("smtp.live.com")
         smtp.EnableSsl = True
-        smtp.Credentials = New System.Net.NetworkCredential("willjones97@hotmail.com", "spongebob")
+        smtp.Credentials = New System.Net.NetworkCredential("Willjones97@hotmail.com", "spongebob")
         smtp.Port = "587"
+        'smtp.Port = "25"
         smtp.Send(mail)
         MsgBox("You will receive an automated response ")
     End Sub
