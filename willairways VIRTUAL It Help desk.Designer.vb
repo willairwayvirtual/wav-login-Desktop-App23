@@ -113,9 +113,9 @@ Partial Class ITHELPDESK
         Me.Send_Ticket.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Send_Ticket.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Send_Ticket.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Send_Ticket.Location = New System.Drawing.Point(897, 87)
+        Me.Send_Ticket.Location = New System.Drawing.Point(862, -6)
         Me.Send_Ticket.Name = "Send_Ticket"
-        Me.Send_Ticket.Size = New System.Drawing.Size(226, 84)
+        Me.Send_Ticket.Size = New System.Drawing.Size(271, 221)
         Me.Send_Ticket.TabIndex = 53
         Me.Send_Ticket.Text = "send ticket"
         Me.Send_Ticket.UseVisualStyleBackColor = False
