@@ -16,7 +16,12 @@ Public Class ITHELPDESK
         smtp.Port = "587"
         'smtp.Port = "25"
         smtp.Send(mail)
-        MsgBox("You will receive an automated response ")
+        MsgBox("Thank you for your enquiry.  We will review and aim to respond within 24 hours.
+ 
+Thanks
+ 
+WAV Development and Support Team
+ ")
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
