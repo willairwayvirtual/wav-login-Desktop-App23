@@ -46,7 +46,7 @@ Partial Class WavBooking
         Me.FltNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FltNum.Location = New System.Drawing.Point(2, 57)
         Me.FltNum.Name = "FltNum"
-        Me.FltNum.Size = New System.Drawing.Size(224, 35)
+        Me.FltNum.Size = New System.Drawing.Size(237, 35)
         Me.FltNum.TabIndex = 0
         '
         'deptime
@@ -54,7 +54,7 @@ Partial Class WavBooking
         Me.deptime.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.deptime.Location = New System.Drawing.Point(2, 269)
         Me.deptime.Name = "deptime"
-        Me.deptime.Size = New System.Drawing.Size(224, 35)
+        Me.deptime.Size = New System.Drawing.Size(237, 35)
         Me.deptime.TabIndex = 1
         '
         'ArrAir
@@ -62,7 +62,7 @@ Partial Class WavBooking
         Me.ArrAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ArrAir.Location = New System.Drawing.Point(2, 199)
         Me.ArrAir.Name = "ArrAir"
-        Me.ArrAir.Size = New System.Drawing.Size(224, 35)
+        Me.ArrAir.Size = New System.Drawing.Size(237, 35)
         Me.ArrAir.TabIndex = 2
         '
         'DeptAir
@@ -70,7 +70,7 @@ Partial Class WavBooking
         Me.DeptAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DeptAir.Location = New System.Drawing.Point(2, 130)
         Me.DeptAir.Name = "DeptAir"
-        Me.DeptAir.Size = New System.Drawing.Size(224, 35)
+        Me.DeptAir.Size = New System.Drawing.Size(237, 35)
         Me.DeptAir.TabIndex = 3
         '
         'Uname
@@ -78,7 +78,7 @@ Partial Class WavBooking
         Me.Uname.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Uname.Location = New System.Drawing.Point(2, 338)
         Me.Uname.Name = "Uname"
-        Me.Uname.Size = New System.Drawing.Size(224, 35)
+        Me.Uname.Size = New System.Drawing.Size(237, 35)
         Me.Uname.TabIndex = 4
         '
         'Label1
@@ -136,7 +136,7 @@ Partial Class WavBooking
         Me.dte.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dte.Location = New System.Drawing.Point(2, 407)
         Me.dte.Name = "dte"
-        Me.dte.Size = New System.Drawing.Size(224, 35)
+        Me.dte.Size = New System.Drawing.Size(237, 35)
         Me.dte.TabIndex = 10
         '
         'Label6
@@ -195,7 +195,7 @@ Partial Class WavBooking
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(223, 556)
+        Me.ClientSize = New System.Drawing.Size(243, 556)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
