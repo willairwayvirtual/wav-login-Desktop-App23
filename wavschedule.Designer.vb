@@ -104,7 +104,7 @@ Partial Class wavschedule
         Me.DataGridView1.GridColor = System.Drawing.Color.Silver
         Me.DataGridView1.Location = New System.Drawing.Point(-8, 114)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1186, 379)
+        Me.DataGridView1.Size = New System.Drawing.Size(1232, 379)
         Me.DataGridView1.TabIndex = 14
         '
         'TextBox4
@@ -194,7 +194,7 @@ Partial Class wavschedule
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(1172, 495)
+        Me.ClientSize = New System.Drawing.Size(1227, 495)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button3)

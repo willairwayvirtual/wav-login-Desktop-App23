@@ -212,7 +212,7 @@ Partial Class WavBooking
         Me.Controls.Add(Me.ArrAir)
         Me.Controls.Add(Me.deptime)
         Me.Controls.Add(Me.FltNum)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WavBooking"
         Me.Text = "book a flght"
