@@ -5,7 +5,6 @@ Public Class SearchDB
     Dim connString As String
     Dim conn As OleDbConnection = New OleDbConnection
 
-
     Private Sub Buttonsc_Click(sender As Object, e As EventArgs) Handles Buttonsc.Click
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
         'Change the following to your access database location
