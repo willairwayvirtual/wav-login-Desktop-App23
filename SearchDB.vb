@@ -23,15 +23,21 @@ Public Class SearchDB
         ds.Tables.Add(dt)
         Dim da As New OleDbDataAdapter
 
-        da = New OleDbDataAdapter("Select * from flightplan where fltnum Like '%" & TextBox1.Text & "%'", conn)
+        'da = New OleDbDataAdapter("Select * from flightplan where fltnum Like '%" & TextBox1.Text & "%'", conn)
+        da = New OleDbDataAdapter("Select * from flightplan WHERE [fltnum] = '" & TextBox1.Text & "' or [Deptair] = '" & TextBox3.Text & "' Or [Arrair] = '" & TextBox6.Text & "'", conn)
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
+        conn.Close()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Form1.Show()
         Me.Close()
+
+    End Sub
+
+    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
 
     End Sub
 End Class
