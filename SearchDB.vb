@@ -24,7 +24,7 @@ Public Class SearchDB
         Dim da As New OleDbDataAdapter
 
         'da = New OleDbDataAdapter("Select * from flightplan where fltnum Like '%" & TextBox1.Text & "%'", conn)
-        da = New OleDbDataAdapter("Select * from flightplan WHERE [fltnum] = '" & TextBox1.Text & "' or [Deptair] = '" & TextBox3.Text & "' Or [Arrair] = '" & TextBox6.Text & "'", conn)
+        da = New OleDbDataAdapter("Select * from flightplan  WHERE [fltnum] = '" & TextBox1.Text & "' or [Deptair] = '" & TextBox3.Text & "' Or [Arrair] = '" & TextBox6.Text & "'", conn)
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
