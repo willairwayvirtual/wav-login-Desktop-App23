@@ -30,7 +30,7 @@ Public Class wavschedule
 
 
 
-        da = New OleDbDataAdapter("Select * from wavschedule where fltnum Like '%" & TextBox1.Text & "%'", conn)
+        da = New OleDbDataAdapter("Select * from wavschedule where  [Flight #] = '" & TextBox1.Text & "' or [Acrft type] = '" & TextBox4.Text & "' Or [Dep apt] = '" & TextBox2.Text & "'", conn)
         da.Fill(dt)
 
 

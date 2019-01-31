@@ -24,7 +24,8 @@ Public Class Reporting
         ds.Tables.Add(dt)
         Dim da As New OleDbDataAdapter
 
-        da = New OleDbDataAdapter("Select * from reporting_flt_deck where uname Like '%" & utextBox1.Text & "%'", conn)
+        da = New OleDbDataAdapter("Select * from reporting_flt_deck where uname Like '%" & utextBox1.Text & "' or [last name] = '" & TextBox1.Text & "' Or [sig in time] = '" & TextBox2.Text & "'", conn)
+
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
