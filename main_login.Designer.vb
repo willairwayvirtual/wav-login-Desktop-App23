@@ -56,7 +56,7 @@ Partial Class main_login
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
         Me.DateTimePicker1.Location = New System.Drawing.Point(468, -1)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(229, 44)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(281, 44)
         Me.DateTimePicker1.TabIndex = 1
         '
         'PictureBox1
@@ -74,7 +74,7 @@ Partial Class main_login
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.Location = New System.Drawing.Point(498, 46)
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(199, 35)
+        Me.txtUsername.Size = New System.Drawing.Size(251, 35)
         Me.txtUsername.TabIndex = 3
         '
         'txtPassword
@@ -83,7 +83,7 @@ Partial Class main_login
         Me.txtPassword.Location = New System.Drawing.Point(498, 92)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(199, 35)
+        Me.txtPassword.Size = New System.Drawing.Size(251, 35)
         Me.txtPassword.TabIndex = 4
         '
         'Label2
@@ -113,9 +113,9 @@ Partial Class main_login
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(364, 168)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(168, 48)
+        Me.Button1.Size = New System.Drawing.Size(234, 48)
         Me.Button1.TabIndex = 7
-        Me.Button1.Text = "register"
+        Me.Button1.Text = "Need an account?"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
@@ -123,9 +123,9 @@ Partial Class main_login
         Me.Button2.BackColor = System.Drawing.Color.Gray
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(529, 168)
+        Me.Button2.Location = New System.Drawing.Point(597, 168)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(168, 48)
+        Me.Button2.Size = New System.Drawing.Size(152, 48)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "login"
         Me.Button2.UseVisualStyleBackColor = False
@@ -135,9 +135,9 @@ Partial Class main_login
         Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button32.ForeColor = System.Drawing.Color.White
-        Me.Button32.Location = New System.Drawing.Point(364, 235)
+        Me.Button32.Location = New System.Drawing.Point(364, 231)
         Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(333, 52)
+        Me.Button32.Size = New System.Drawing.Size(385, 47)
         Me.Button32.TabIndex = 10
         Me.Button32.Text = "Forgotten your password?"
         Me.Button32.UseVisualStyleBackColor = False
@@ -158,7 +158,7 @@ Partial Class main_login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(697, 287)
+        Me.ClientSize = New System.Drawing.Size(748, 279)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button32)
         Me.Controls.Add(Me.Button2)
