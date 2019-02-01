@@ -111,7 +111,7 @@ Partial Class main_login
         Me.Button1.BackColor = System.Drawing.Color.Gray
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(529, 166)
+        Me.Button1.Location = New System.Drawing.Point(364, 168)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(168, 48)
         Me.Button1.TabIndex = 7
@@ -123,7 +123,7 @@ Partial Class main_login
         Me.Button2.BackColor = System.Drawing.Color.Gray
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(364, 166)
+        Me.Button2.Location = New System.Drawing.Point(529, 168)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(168, 48)
         Me.Button2.TabIndex = 8
@@ -146,7 +146,7 @@ Partial Class main_login
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(378, 131)
+        Me.CheckBox1.Location = New System.Drawing.Point(373, 133)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(170, 29)
         Me.CheckBox1.TabIndex = 11
