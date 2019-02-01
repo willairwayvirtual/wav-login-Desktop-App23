@@ -135,9 +135,9 @@ Partial Class main_login
         Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button32.ForeColor = System.Drawing.Color.White
-        Me.Button32.Location = New System.Drawing.Point(364, 205)
+        Me.Button32.Location = New System.Drawing.Point(364, 234)
         Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(349, 57)
+        Me.Button32.Size = New System.Drawing.Size(333, 53)
         Me.Button32.TabIndex = 10
         Me.Button32.Text = "Forgotten your password?"
         Me.Button32.UseVisualStyleBackColor = False
@@ -145,10 +145,10 @@ Partial Class main_login
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(373, 133)
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(378, 133)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(170, 29)
+        Me.CheckBox1.Size = New System.Drawing.Size(228, 37)
         Me.CheckBox1.TabIndex = 11
         Me.CheckBox1.Text = "Remember me"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -158,7 +158,7 @@ Partial Class main_login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(697, 257)
+        Me.ClientSize = New System.Drawing.Size(697, 287)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button32)
         Me.Controls.Add(Me.Button2)
