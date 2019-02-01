@@ -40,17 +40,15 @@ Partial Class create_reg
         Me.conf_pword = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.BackLogin = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(244, -1)
+        Me.Label1.Location = New System.Drawing.Point(244, 49)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(328, 42)
         Me.Label1.TabIndex = 1
@@ -59,7 +57,7 @@ Partial Class create_reg
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(242, 52)
+        Me.PictureBox1.Location = New System.Drawing.Point(233, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(352, 43)
         Me.PictureBox1.TabIndex = 2
@@ -86,7 +84,7 @@ Partial Class create_reg
         Me.EMailAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EMailAdd.Location = New System.Drawing.Point(233, 253)
         Me.EMailAdd.Name = "EMailAdd"
-        Me.EMailAdd.Size = New System.Drawing.Size(449, 35)
+        Me.EMailAdd.Size = New System.Drawing.Size(294, 35)
         Me.EMailAdd.TabIndex = 10
         '
         'new_username
@@ -103,16 +101,16 @@ Partial Class create_reg
         Me.new_password.Location = New System.Drawing.Point(233, 315)
         Me.new_password.MaxLength = 10
         Me.new_password.Name = "new_password"
-        Me.new_password.Size = New System.Drawing.Size(177, 35)
+        Me.new_password.Size = New System.Drawing.Size(294, 35)
         Me.new_password.TabIndex = 13
         '
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(233, 418)
+        Me.TextBox7.Location = New System.Drawing.Point(233, 385)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox7.Size = New System.Drawing.Size(177, 35)
+        Me.TextBox7.Size = New System.Drawing.Size(294, 35)
         Me.TextBox7.TabIndex = 14
         '
         'FIRST
@@ -129,7 +127,7 @@ Partial Class create_reg
         '
         Me.last.AutoSize = True
         Me.last.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.last.Location = New System.Drawing.Point(41, 149)
+        Me.last.Location = New System.Drawing.Point(50, 149)
         Me.last.Name = "last"
         Me.last.Size = New System.Drawing.Size(115, 25)
         Me.last.TabIndex = 16
@@ -159,8 +157,8 @@ Partial Class create_reg
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.DarkCyan
-        Me.Label3.Location = New System.Drawing.Point(41, 368)
+        Me.Label3.ForeColor = System.Drawing.Color.Red
+        Me.Label3.Location = New System.Drawing.Point(541, 315)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(273, 29)
         Me.Label3.TabIndex = 20
@@ -180,7 +178,7 @@ Partial Class create_reg
         '
         Me.conf_pword.AutoSize = True
         Me.conf_pword.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.conf_pword.Location = New System.Drawing.Point(40, 418)
+        Me.conf_pword.Location = New System.Drawing.Point(40, 374)
         Me.conf_pword.Name = "conf_pword"
         Me.conf_pword.Size = New System.Drawing.Size(186, 25)
         Me.conf_pword.TabIndex = 22
@@ -188,10 +186,10 @@ Partial Class create_reg
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.Yellow
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(46, 482)
+        Me.Button1.Location = New System.Drawing.Point(203, 436)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(369, 50)
         Me.Button1.TabIndex = 27
@@ -200,21 +198,15 @@ Partial Class create_reg
         '
         'BackLogin
         '
-        Me.BackLogin.Location = New System.Drawing.Point(76, 0)
+        Me.BackLogin.BackColor = System.Drawing.Color.Black
+        Me.BackLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BackLogin.ForeColor = System.Drawing.Color.White
+        Me.BackLogin.Location = New System.Drawing.Point(203, 492)
         Me.BackLogin.Name = "BackLogin"
-        Me.BackLogin.Size = New System.Drawing.Size(162, 31)
+        Me.BackLogin.Size = New System.Drawing.Size(382, 45)
         Me.BackLogin.TabIndex = 28
         Me.BackLogin.Text = "back to the login screen"
-        Me.BackLogin.UseVisualStyleBackColor = True
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(0, -1)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(85, 32)
-        Me.PictureBox2.TabIndex = 29
-        Me.PictureBox2.TabStop = False
+        Me.BackLogin.UseVisualStyleBackColor = False
         '
         'DateTimePicker1
         '
@@ -232,7 +224,6 @@ Partial Class create_reg
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(826, 561)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.BackLogin)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.conf_pword)
@@ -255,7 +246,6 @@ Partial Class create_reg
         Me.Name = "create_reg"
         Me.Text = "sign up in to willairwys Virtual"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -278,6 +268,5 @@ Partial Class create_reg
     Friend WithEvents conf_pword As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents BackLogin As Button
-    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class
