@@ -54,9 +54,9 @@ Partial Class main_login
         Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker1.Location = New System.Drawing.Point(468, -1)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(452, -1)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(281, 44)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(297, 44)
         Me.DateTimePicker1.TabIndex = 1
         '
         'PictureBox1
