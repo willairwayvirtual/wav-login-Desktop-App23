@@ -47,7 +47,7 @@ Public Class main_login
             obj.Show()
             Me.Close()
         Else
-            MsgBox("Sorry, username or password not found", MsgBoxStyle.OkOnly, "Invalid Login")
+            MsgBox("YOU DONT EXIST", MsgBoxStyle.OkOnly, "YOU DONT EXIST")
         End If
         myConnection.Close()
     End Sub
