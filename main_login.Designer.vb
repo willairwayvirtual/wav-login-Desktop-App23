@@ -111,7 +111,7 @@ Partial Class main_login
         Me.Button1.BackColor = System.Drawing.Color.Gray
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(367, 159)
+        Me.Button1.Location = New System.Drawing.Point(529, 166)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(168, 48)
         Me.Button1.TabIndex = 7
@@ -123,9 +123,9 @@ Partial Class main_login
         Me.Button2.BackColor = System.Drawing.Color.Gray
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(525, 159)
+        Me.Button2.Location = New System.Drawing.Point(364, 166)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(172, 48)
+        Me.Button2.Size = New System.Drawing.Size(168, 48)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "login"
         Me.Button2.UseVisualStyleBackColor = False
@@ -135,7 +135,7 @@ Partial Class main_login
         Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button32.ForeColor = System.Drawing.Color.White
-        Me.Button32.Location = New System.Drawing.Point(367, 203)
+        Me.Button32.Location = New System.Drawing.Point(364, 205)
         Me.Button32.Name = "Button32"
         Me.Button32.Size = New System.Drawing.Size(349, 57)
         Me.Button32.TabIndex = 10
