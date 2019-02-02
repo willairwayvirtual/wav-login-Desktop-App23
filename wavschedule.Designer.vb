@@ -76,7 +76,7 @@ Partial Class wavschedule
         '
         Me.Button2.Location = New System.Drawing.Point(738, 18)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 72)
+        Me.Button2.Size = New System.Drawing.Size(144, 93)
         Me.Button2.TabIndex = 12
         Me.Button2.Text = "back to the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "choose sceen"
         Me.Button2.UseVisualStyleBackColor = True
@@ -135,7 +135,7 @@ Partial Class wavschedule
         '
         Me.Button1.Location = New System.Drawing.Point(570, 18)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(162, 72)
+        Me.Button1.Size = New System.Drawing.Size(176, 93)
         Me.Button1.TabIndex = 19
         Me.Button1.Text = "Search Schedule"
         Me.Button1.UseVisualStyleBackColor = True
@@ -163,7 +163,7 @@ Partial Class wavschedule
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(876, 18)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(247, 72)
+        Me.Button3.Size = New System.Drawing.Size(359, 93)
         Me.Button3.TabIndex = 22
         Me.Button3.Text = "go to book a flght"
         Me.Button3.UseVisualStyleBackColor = True

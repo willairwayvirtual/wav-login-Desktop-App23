@@ -33,8 +33,8 @@ Public Class wavschedule
         da = New OleDbDataAdapter("Select * from wavschedule where  [Flight #] = '" & TextBox1.Text & "' or [Acrft type] = '" & TextBox4.Text & "' Or [Dep apt] = '" & TextBox2.Text & "'", conn)
         da.Fill(dt)
 
-
         DataGridView1.DataSource = dt.DefaultView
+        conn.Close()
     End Sub
 
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
