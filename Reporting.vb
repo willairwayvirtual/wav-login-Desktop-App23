@@ -28,7 +28,9 @@ Public Class Reporting
 
         da.Fill(dt)
 
+
         DataGridView1.DataSource = dt.DefaultView
+        conn.Close()
     End Sub
 
 

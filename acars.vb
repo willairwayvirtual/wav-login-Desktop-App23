@@ -33,6 +33,7 @@ Public Class acars
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
+        conn.Close()
     End Sub
 
     Private Sub StFlight_Click(sender As Object, e As System.EventArgs) Handles StFlight.Click
