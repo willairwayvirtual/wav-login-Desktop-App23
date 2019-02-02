@@ -112,8 +112,8 @@ Partial Class ResetPword
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Yellow
-        Me.Button1.ForeColor = System.Drawing.Color.Red
+        Me.Button1.BackColor = System.Drawing.Color.Silver
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Button1.Location = New System.Drawing.Point(-3, 208)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(826, 50)
@@ -123,12 +123,13 @@ Partial Class ResetPword
         '
         'Button23
         '
+        Me.Button23.BackColor = System.Drawing.Color.Silver
         Me.Button23.Location = New System.Drawing.Point(-3, 255)
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(826, 52)
         Me.Button23.TabIndex = 29
         Me.Button23.Text = "back to the login screen"
-        Me.Button23.UseVisualStyleBackColor = True
+        Me.Button23.UseVisualStyleBackColor = False
         '
         'Label6
         '
@@ -157,10 +158,11 @@ Partial Class ResetPword
         Me.Controls.Add(Me.CNewPword)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.USName)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ResetPword"
         Me.Text = " Reset Password "
+        Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

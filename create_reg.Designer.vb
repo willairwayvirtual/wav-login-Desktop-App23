@@ -222,7 +222,7 @@ Partial Class create_reg
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(826, 561)
+        Me.ClientSize = New System.Drawing.Size(826, 537)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.BackLogin)
         Me.Controls.Add(Me.Button1)
@@ -241,7 +241,7 @@ Partial Class create_reg
         Me.Controls.Add(Me.New_fname)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "create_reg"
         Me.Text = "sign up in to willairwys Virtual"
