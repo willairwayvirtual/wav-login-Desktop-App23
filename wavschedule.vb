@@ -30,7 +30,7 @@ Public Class wavschedule
 
 
 
-        da = New OleDbDataAdapter("Select * from wavschedule where  [Flight #] = '" & TextBox1.Text & "' or [Acrft type] = '" & TextBox4.Text & "' Or [Dep apt] = '" & TextBox2.Text & "'", conn)
+        da = New OleDbDataAdapter("Select * from wavschedule where  [Fltnum] = '" & TextBox1.Text & "' or [Aircrafttype] = '" & TextBox4.Text & "' Or [Deparpt] = '" & TextBox2.Text & "'", conn)
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
