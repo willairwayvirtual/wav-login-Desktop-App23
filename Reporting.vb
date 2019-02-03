@@ -24,7 +24,7 @@ Public Class Reporting
         ds.Tables.Add(dt)
         Dim da As New OleDbDataAdapter
 
-        da = New OleDbDataAdapter("Select * from reporting_flt_deck where uname Like '%" & utextBox1.Text & "' or [last name] = '" & TextBox1.Text & "' Or [sig in time] = '" & TextBox2.Text & "'", conn)
+        da = New OleDbDataAdapter("Select * from repfltdeck where [uname] = '" & utextBox1.Text & "' or [lastname] = '" & TextBox1.Text & "' Or [reportingtime] = '" & TextBox2.Text & "' Or [flightnumber] = '" & TextBox3.Text & "'", conn)
 
         da.Fill(dt)
 
@@ -46,6 +46,18 @@ Public Class Reporting
         Form2.Show()
         Me.Close()
 
+
+    End Sub
+
+    Private Sub utextBox1_TextChanged(sender As Object, e As EventArgs) Handles utextBox1.TextChanged
+
+    End Sub
+
+    Private Sub label4_Click(sender As Object, e As EventArgs) Handles label4.Click
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
 End Class
