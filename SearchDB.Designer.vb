@@ -192,7 +192,7 @@ Partial Class SearchDB
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(-7, 111)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(953, 362)
+        Me.DataGridView1.Size = New System.Drawing.Size(1063, 362)
         Me.DataGridView1.TabIndex = 25
         '
         'SearchDB
@@ -200,7 +200,7 @@ Partial Class SearchDB
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Blue
-        Me.ClientSize = New System.Drawing.Size(940, 450)
+        Me.ClientSize = New System.Drawing.Size(1038, 450)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label7)
