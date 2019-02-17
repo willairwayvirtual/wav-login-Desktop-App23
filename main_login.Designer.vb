@@ -32,8 +32,8 @@ Partial Class main_login
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Button33 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -111,9 +111,9 @@ Partial Class main_login
         Me.Button1.BackColor = System.Drawing.Color.Gray
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(372, 168)
+        Me.Button1.Location = New System.Drawing.Point(365, 168)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(234, 48)
+        Me.Button1.Size = New System.Drawing.Size(241, 48)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "Need an account?"
         Me.Button1.UseVisualStyleBackColor = False
@@ -130,18 +130,6 @@ Partial Class main_login
         Me.Button2.Text = "login"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button32
-        '
-        Me.Button32.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.ForeColor = System.Drawing.Color.White
-        Me.Button32.Location = New System.Drawing.Point(378, 231)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(371, 47)
-        Me.Button32.TabIndex = 10
-        Me.Button32.Text = "Forgotten your password?"
-        Me.Button32.UseVisualStyleBackColor = False
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -153,14 +141,23 @@ Partial Class main_login
         Me.CheckBox1.Text = "Remember me"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'Button33
+        '
+        Me.Button33.Location = New System.Drawing.Point(365, 222)
+        Me.Button33.Name = "Button33"
+        Me.Button33.Size = New System.Drawing.Size(384, 65)
+        Me.Button33.TabIndex = 12
+        Me.Button33.Text = "Forgotten your password?"
+        Me.Button33.UseVisualStyleBackColor = True
+        '
         'main_login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.ClientSize = New System.Drawing.Size(748, 279)
+        Me.Controls.Add(Me.Button33)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Button32)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -189,6 +186,6 @@ Partial Class main_login
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button32 As Button
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Button33 As Button
 End Class

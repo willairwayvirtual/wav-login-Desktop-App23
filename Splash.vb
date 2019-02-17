@@ -3,7 +3,7 @@
         ProgressBar1.Increment(1)
         If ProgressBar1.Value = 100 Then
             Timer1.Stop()
-            main_login.Show()
+            wav_new_login.Show()
             Me.Hide()
         End If
         Label1.Text = ProgressBar1.Value & (" %")

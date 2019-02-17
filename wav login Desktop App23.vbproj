@@ -200,6 +200,12 @@
     <Compile Include="wav menu231.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="wav news log in.Designer.vb">
+      <DependentUpon>wav news log in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wav news log in.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="wavBooking.Designer.vb">
       <DependentUpon>wavBooking.vb</DependentUpon>
     </Compile>
@@ -266,6 +272,9 @@
     <EmbeddedResource Include="wav menu231.resx">
       <DependentUpon>wav menu231.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="wav news log in.resx">
+      <DependentUpon>wav news log in.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="wavBooking.resx">
       <DependentUpon>wavBooking.vb</DependentUpon>
     </EmbeddedResource>
@@ -287,7 +296,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="wav login Desktop App23_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">

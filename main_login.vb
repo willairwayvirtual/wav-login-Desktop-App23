@@ -73,14 +73,17 @@ Public Class main_login
 
     End Sub
 
-    Private Sub Button3Click(sender As Object, e As EventArgs) Handles Button32.Click
-        ResetPword.Show()
-        Me.Close()
+    Private Sub Button3Click(sender As Object, e As EventArgs)
     End Sub
 
 
 
     Private Sub txtUsername_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
 
+    End Sub
+
+    Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
+        ResetPword.Show()
+        Me.Close()
     End Sub
 End Class
