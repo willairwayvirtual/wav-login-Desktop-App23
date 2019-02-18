@@ -109,7 +109,7 @@ Partial Class wav_new_login
         'txtUsername
         '
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(47, 166)
+        Me.txtUsername.Location = New System.Drawing.Point(58, 166)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(251, 35)
         Me.txtUsername.TabIndex = 11
@@ -128,7 +128,7 @@ Partial Class wav_new_login
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(100, 204)
+        Me.Label3.Location = New System.Drawing.Point(114, 204)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(126, 29)
         Me.Label3.TabIndex = 9
@@ -139,7 +139,7 @@ Partial Class wav_new_login
         Me.txtPassword.BackColor = System.Drawing.Color.White
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.Color.Black
-        Me.txtPassword.Location = New System.Drawing.Point(47, 236)
+        Me.txtPassword.Location = New System.Drawing.Point(58, 236)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPassword.Size = New System.Drawing.Size(262, 35)
@@ -149,7 +149,7 @@ Partial Class wav_new_login
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(102, 134)
+        Me.Label2.Location = New System.Drawing.Point(129, 134)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(124, 29)
         Me.Label2.TabIndex = 6
