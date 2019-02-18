@@ -25,6 +25,7 @@ Partial Class wav_new_login
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(wav_new_login))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.login = New System.Windows.Forms.TabPage()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.txtUsername = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -58,7 +59,6 @@ Partial Class wav_new_login
         Me.USName = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.TabControl1.SuspendLayout()
         Me.login.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -96,6 +96,17 @@ Partial Class wav_new_login
         Me.login.Size = New System.Drawing.Size(464, 499)
         Me.login.TabIndex = 0
         Me.login.Text = "login"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(100, 277)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(228, 37)
+        Me.CheckBox1.TabIndex = 13
+        Me.CheckBox1.Text = "Remember me"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -441,17 +452,6 @@ Partial Class wav_new_login
         Me.Label6.Size = New System.Drawing.Size(311, 42)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = " Reset Password "
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(100, 277)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(228, 37)
-        Me.CheckBox1.TabIndex = 13
-        Me.CheckBox1.Text = "Remember me"
-        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'wav_new_login
         '
