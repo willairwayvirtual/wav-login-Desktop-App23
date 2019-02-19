@@ -35,7 +35,7 @@ Partial Class wav_new_login
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button33 = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -79,16 +79,16 @@ Partial Class wav_new_login
         Me.login.Padding = New System.Windows.Forms.Padding(3)
         Me.login.Size = New System.Drawing.Size(468, 417)
         Me.login.TabIndex = 0
-        Me.login.Text = "login"
+        Me.login.Text = "login and Create an Account"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Silver
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(2, 366)
+        Me.Button1.Location = New System.Drawing.Point(-5, 366)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(465, 46)
+        Me.Button1.Size = New System.Drawing.Size(472, 54)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "Need an account?"
         Me.Button1.UseVisualStyleBackColor = False
@@ -116,18 +116,18 @@ Partial Class wav_new_login
         'txtUsername
         '
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(77, 153)
+        Me.txtUsername.Location = New System.Drawing.Point(6, 153)
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(251, 35)
+        Me.txtUsername.Size = New System.Drawing.Size(454, 35)
         Me.txtUsername.TabIndex = 11
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(-5, 28)
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, 34)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(370, 90)
+        Me.PictureBox1.Size = New System.Drawing.Size(315, 90)
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
@@ -135,7 +135,7 @@ Partial Class wav_new_login
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(122, 191)
+        Me.Label3.Location = New System.Drawing.Point(132, 191)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(126, 29)
         Me.Label3.TabIndex = 9
@@ -146,17 +146,17 @@ Partial Class wav_new_login
         Me.txtPassword.BackColor = System.Drawing.Color.White
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.Color.Black
-        Me.txtPassword.Location = New System.Drawing.Point(66, 223)
+        Me.txtPassword.Location = New System.Drawing.Point(6, 223)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(262, 35)
+        Me.txtPassword.Size = New System.Drawing.Size(454, 35)
         Me.txtPassword.TabIndex = 8
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(133, 121)
+        Me.Label2.Location = New System.Drawing.Point(134, 121)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(124, 29)
         Me.Label2.TabIndex = 6
@@ -166,10 +166,10 @@ Partial Class wav_new_login
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(-4, -1)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(273, 26)
+        Me.Label1.Size = New System.Drawing.Size(348, 32)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = " Welcome to Willairways Virtual please enter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " you username and password or regis" &
     "ter your user details"
@@ -177,7 +177,7 @@ Partial Class wav_new_login
         'TabPage3
         '
         Me.TabPage3.BackColor = System.Drawing.Color.Gray
-        Me.TabPage3.Controls.Add(Me.Button3)
+        Me.TabPage3.Controls.Add(Me.Button33)
         Me.TabPage3.Controls.Add(Me.Label10)
         Me.TabPage3.Controls.Add(Me.Label9)
         Me.TabPage3.Controls.Add(Me.TextBox3)
@@ -189,19 +189,19 @@ Partial Class wav_new_login
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(458, 393)
+        Me.TabPage3.Size = New System.Drawing.Size(468, 417)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = " Reset Password "
         '
-        'Button3
+        'Button33
         '
-        Me.Button3.ForeColor = System.Drawing.Color.Red
-        Me.Button3.Location = New System.Drawing.Point(0, 331)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(468, 60)
-        Me.Button3.TabIndex = 34
-        Me.Button3.Text = "Update Password "
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button33.ForeColor = System.Drawing.Color.Red
+        Me.Button33.Location = New System.Drawing.Point(0, 331)
+        Me.Button33.Name = "Button33"
+        Me.Button33.Size = New System.Drawing.Size(468, 86)
+        Me.Button33.TabIndex = 34
+        Me.Button33.Text = "Update Password "
+        Me.Button33.UseVisualStyleBackColor = True
         '
         'Label10
         '
@@ -320,7 +320,7 @@ Partial Class wav_new_login
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents txtUsername As TextBox
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents Button33 As Button
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Button1 As Button
 End Class
