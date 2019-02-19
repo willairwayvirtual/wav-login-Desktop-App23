@@ -127,7 +127,7 @@ Partial Class wav_new_login
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.Location = New System.Drawing.Point(-1, 34)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(315, 90)
+        Me.PictureBox1.Size = New System.Drawing.Size(345, 90)
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
@@ -207,7 +207,7 @@ Partial Class wav_new_login
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(66, 227)
+        Me.Label10.Location = New System.Drawing.Point(87, 227)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(220, 25)
         Me.Label10.TabIndex = 33
@@ -218,7 +218,7 @@ Partial Class wav_new_login
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(67, 198)
+        Me.Label9.Location = New System.Drawing.Point(105, 198)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(182, 20)
         Me.Label9.TabIndex = 32
@@ -246,7 +246,7 @@ Partial Class wav_new_login
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(88, 127)
+        Me.Label8.Location = New System.Drawing.Point(123, 127)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(147, 25)
         Me.Label8.TabIndex = 8
@@ -264,7 +264,7 @@ Partial Class wav_new_login
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(82, 56)
+        Me.Label7.Location = New System.Drawing.Point(139, 56)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(110, 25)
         Me.Label7.TabIndex = 6

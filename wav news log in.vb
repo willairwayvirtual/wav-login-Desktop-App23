@@ -58,4 +58,8 @@ Public Class wav_new_login
 
 
     End Sub
+
+    Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
+
+    End Sub
 End Class
