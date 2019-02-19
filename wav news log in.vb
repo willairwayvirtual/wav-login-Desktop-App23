@@ -52,4 +52,10 @@ Public Class wav_new_login
         myConnection.Close()
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        create_reg.Show()
+        Me.Close()
+
+
+    End Sub
 End Class

@@ -48,7 +48,7 @@ Public Class create_reg
 
     Private Sub BackLogin_Click(sender As Object, e As EventArgs) Handles BackLogin.Click
         Me.Close()
-        main_login.Show()
+        wav_new_login.Show()
     End Sub
 
     Private Sub TextBox7_TextChanged(sender As Object, e As EventArgs) Handles TextBox7.TextChanged
