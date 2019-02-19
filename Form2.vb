@@ -19,7 +19,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        main_login.Show()
+        wav_new_login.Show()
         Me.Close()
 
 

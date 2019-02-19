@@ -34,7 +34,7 @@ Partial Class wav_new_login
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.wav3 = New System.Windows.Forms.TabPage()
         Me.Button33 = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -47,13 +47,13 @@ Partial Class wav_new_login
         Me.TabControl1.SuspendLayout()
         Me.login.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage3.SuspendLayout()
+        Me.wav3.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.login)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.wav3)
         Me.TabControl1.Location = New System.Drawing.Point(1, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -174,24 +174,24 @@ Partial Class wav_new_login
         Me.Label1.Text = " Welcome to Willairways Virtual please enter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " you username and password or regis" &
     "ter your user details"
         '
-        'TabPage3
+        'wav3
         '
-        Me.TabPage3.BackColor = System.Drawing.Color.Gray
-        Me.TabPage3.Controls.Add(Me.Button33)
-        Me.TabPage3.Controls.Add(Me.Label10)
-        Me.TabPage3.Controls.Add(Me.Label9)
-        Me.TabPage3.Controls.Add(Me.TextBox3)
-        Me.TabPage3.Controls.Add(Me.TextBox2)
-        Me.TabPage3.Controls.Add(Me.Label8)
-        Me.TabPage3.Controls.Add(Me.USName)
-        Me.TabPage3.Controls.Add(Me.Label7)
-        Me.TabPage3.Controls.Add(Me.Label6)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(468, 417)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = " Reset Password "
+        Me.wav3.BackColor = System.Drawing.Color.Gray
+        Me.wav3.Controls.Add(Me.Button33)
+        Me.wav3.Controls.Add(Me.Label10)
+        Me.wav3.Controls.Add(Me.Label9)
+        Me.wav3.Controls.Add(Me.TextBox3)
+        Me.wav3.Controls.Add(Me.TextBox2)
+        Me.wav3.Controls.Add(Me.Label8)
+        Me.wav3.Controls.Add(Me.USName)
+        Me.wav3.Controls.Add(Me.Label7)
+        Me.wav3.Controls.Add(Me.Label6)
+        Me.wav3.Location = New System.Drawing.Point(4, 22)
+        Me.wav3.Name = "wav3"
+        Me.wav3.Padding = New System.Windows.Forms.Padding(3)
+        Me.wav3.Size = New System.Drawing.Size(468, 417)
+        Me.wav3.TabIndex = 2
+        Me.wav3.Text = " Reset Password "
         '
         'Button33
         '
@@ -207,7 +207,7 @@ Partial Class wav_new_login
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(40, 240)
+        Me.Label10.Location = New System.Drawing.Point(51, 227)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(220, 25)
         Me.Label10.TabIndex = 33
@@ -218,7 +218,7 @@ Partial Class wav_new_login
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(53, 220)
+        Me.Label9.Location = New System.Drawing.Point(67, 198)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(182, 20)
         Me.Label9.TabIndex = 32
@@ -227,7 +227,7 @@ Partial Class wav_new_login
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(32, 268)
+        Me.TextBox3.Location = New System.Drawing.Point(45, 255)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox3.Size = New System.Drawing.Size(250, 40)
@@ -236,7 +236,7 @@ Partial Class wav_new_login
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(32, 177)
+        Me.TextBox2.Location = New System.Drawing.Point(45, 155)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(250, 40)
@@ -246,7 +246,7 @@ Partial Class wav_new_login
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(88, 149)
+        Me.Label8.Location = New System.Drawing.Point(88, 127)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(147, 25)
         Me.Label8.TabIndex = 8
@@ -255,7 +255,7 @@ Partial Class wav_new_login
         'USName
         '
         Me.USName.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.USName.Location = New System.Drawing.Point(32, 94)
+        Me.USName.Location = New System.Drawing.Point(45, 84)
         Me.USName.Name = "USName"
         Me.USName.Size = New System.Drawing.Size(250, 40)
         Me.USName.TabIndex = 7
@@ -264,7 +264,7 @@ Partial Class wav_new_login
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(89, 66)
+        Me.Label7.Location = New System.Drawing.Point(82, 56)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(110, 25)
         Me.Label7.TabIndex = 6
@@ -275,7 +275,7 @@ Partial Class wav_new_login
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(3, 24)
+        Me.Label6.Location = New System.Drawing.Point(25, 14)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(311, 42)
         Me.Label6.TabIndex = 5
@@ -296,8 +296,8 @@ Partial Class wav_new_login
         Me.login.ResumeLayout(False)
         Me.login.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage3.ResumeLayout(False)
-        Me.TabPage3.PerformLayout()
+        Me.wav3.ResumeLayout(False)
+        Me.wav3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -308,7 +308,7 @@ Partial Class wav_new_login
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents wav3 As TabPage
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents TextBox3 As TextBox
