@@ -4,6 +4,7 @@ Public Class wav_new_login
     Dim dataFile As String
     Dim connString As String
     Dim myConnection As OleDbConnection = New OleDbConnection
+    Dim conn As OleDbConnection = New OleDbConnection
 
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
@@ -60,6 +61,39 @@ Public Class wav_new_login
     End Sub
 
     Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
+        provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
+        'Change the following to your access database location
+        dataFile = "C:\VisStudioProj\wav web\willairwayvirtual34\willairwayvirtual34\app_data\willairwayvirtualDBv1.accdb"
+        connString = provider & dataFile
+        conn.ConnectionString = connString
 
+        'check status of connection string
+        If conn.State = ConnectionState.Closed Then
+            conn.Open()
+        Else
+            conn.Close()
+        End If
+
+        'check password status and continue to create new user
+        If TextBox2.Text.Length < 4 Then
+            MsgBox("Miminum Password Length is 4 Characters")
+        Else
+            'update records
+            Dim savenew As String = "Update  [tblaccessinfo] set [Pword] ='" & TextBox3.Text & "' where [Uname] = '" & USName.Text & "';"
+
+
+            Dim cmd As New OleDbCommand
+
+            With cmd
+                .CommandText = savenew
+                .Connection = conn
+                .ExecuteNonQuery()
+            End With
+            MessageBox.Show("Password Updated")
+
+            conn.Close()
+        End If
     End Sub
+
+
 End Class

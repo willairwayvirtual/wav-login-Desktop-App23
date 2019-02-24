@@ -125,7 +125,7 @@ Partial Class wav_new_login
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(-1, 34)
+        Me.PictureBox1.Location = New System.Drawing.Point(2, 34)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(345, 90)
         Me.PictureBox1.TabIndex = 10
@@ -195,13 +195,15 @@ Partial Class wav_new_login
         '
         'Button33
         '
+        Me.Button33.BackColor = System.Drawing.Color.Gray
+        Me.Button33.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button33.ForeColor = System.Drawing.Color.Red
         Me.Button33.Location = New System.Drawing.Point(0, 331)
         Me.Button33.Name = "Button33"
         Me.Button33.Size = New System.Drawing.Size(468, 86)
         Me.Button33.TabIndex = 34
         Me.Button33.Text = "Update Password "
-        Me.Button33.UseVisualStyleBackColor = True
+        Me.Button33.UseVisualStyleBackColor = False
         '
         'Label10
         '
