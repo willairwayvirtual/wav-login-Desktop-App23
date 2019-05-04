@@ -30,6 +30,7 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -72,7 +73,7 @@ Partial Class Form2
         '
         Me.Button4.BackColor = System.Drawing.Color.Red
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(-40, 201)
+        Me.Button4.Location = New System.Drawing.Point(-7, 258)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(1436, 54)
         Me.Button4.TabIndex = 5
@@ -93,9 +94,9 @@ Partial Class Form2
         '
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.Location = New System.Drawing.Point(1049, 47)
+        Me.Button5.Location = New System.Drawing.Point(1040, 45)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(194, 157)
+        Me.Button5.Size = New System.Drawing.Size(214, 167)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "check in"
         Me.Button5.UseVisualStyleBackColor = True
@@ -105,18 +106,30 @@ Partial Class Form2
         Me.Button6.BackColor = System.Drawing.Color.DimGray
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button6.Location = New System.Drawing.Point(1240, 45)
+        Me.Button6.Location = New System.Drawing.Point(1238, 45)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(142, 162)
+        Me.Button6.Size = New System.Drawing.Size(144, 179)
         Me.Button6.TabIndex = 66
         Me.Button6.Text = "Support" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "  Helpdesk"
         Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.Location = New System.Drawing.Point(-7, 203)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(1436, 58)
+        Me.Button7.TabIndex = 67
+        Me.Button7.Text = "cancelled fight "
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1370, 249)
+        Me.ClientSize = New System.Drawing.Size(1386, 310)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label1)
@@ -141,4 +154,5 @@ Partial Class Form2
     Friend WithEvents Label1 As Label
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class

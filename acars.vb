@@ -29,7 +29,7 @@ Public Class acars
         ds.Tables.Add(dt)
         Dim da As New OleDbDataAdapter
 
-        da = New OleDbDataAdapter("Select * from acars WHERE [fltnum] = '" & TextBox1.Text & "' or [Deptair] = '" & TextBox2.Text & "'", conn)
+        da = New OleDbDataAdapter("Select * from flightplan WHERE [fltnum] = '" & TextBox1.Text & "' or [Deptair] = '" & TextBox2.Text & "'", conn)
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
