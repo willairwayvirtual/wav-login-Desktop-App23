@@ -60,4 +60,10 @@
     Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        wav12.Show()
+        Me.Close()
+
+    End Sub
 End Class

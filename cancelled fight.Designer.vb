@@ -22,6 +22,7 @@ Partial Class wav12
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(wav12))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -187,6 +188,7 @@ Partial Class wav12
         Me.Controls.Add(Me.deptime)
         Me.Controls.Add(Me.FltNum)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "wav12"
         Me.Text = "cancelled fight"
         Me.ResumeLayout(False)
