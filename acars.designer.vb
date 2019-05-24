@@ -87,9 +87,9 @@ Partial Class acars
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(0, 134)
+        Me.DataGridView1.Location = New System.Drawing.Point(0, 131)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(831, 84)
+        Me.DataGridView1.Size = New System.Drawing.Size(1233, 84)
         Me.DataGridView1.TabIndex = 4
         '
         'Button1
@@ -130,7 +130,7 @@ Partial Class acars
         Me.Label71.AutoSize = True
         Me.Label71.BackColor = System.Drawing.Color.Red
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(102, 294)
+        Me.Label71.Location = New System.Drawing.Point(159, 299)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(555, 20)
         Me.Label71.TabIndex = 16
@@ -188,7 +188,7 @@ Partial Class acars
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Lime
-        Me.Label3.Location = New System.Drawing.Point(586, 436)
+        Me.Label3.Location = New System.Drawing.Point(1013, 418)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(144, 24)
         Me.Label3.TabIndex = 22
@@ -197,7 +197,7 @@ Partial Class acars
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(736, 422)
+        Me.PictureBox1.Location = New System.Drawing.Point(1150, 411)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(83, 35)
         Me.PictureBox1.TabIndex = 23
@@ -246,7 +246,7 @@ Partial Class acars
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(820, 458)
+        Me.ClientSize = New System.Drawing.Size(1232, 458)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)

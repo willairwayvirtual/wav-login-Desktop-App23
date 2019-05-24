@@ -115,7 +115,9 @@ Partial Class wav_new_login
         '
         'txtUsername
         '
+        Me.txtUsername.BackColor = System.Drawing.Color.Silver
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.ForeColor = System.Drawing.Color.White
         Me.txtUsername.Location = New System.Drawing.Point(6, 153)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(454, 35)
@@ -143,9 +145,9 @@ Partial Class wav_new_login
         '
         'txtPassword
         '
-        Me.txtPassword.BackColor = System.Drawing.Color.White
+        Me.txtPassword.BackColor = System.Drawing.Color.Silver
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.ForeColor = System.Drawing.Color.Black
+        Me.txtPassword.ForeColor = System.Drawing.Color.White
         Me.txtPassword.Location = New System.Drawing.Point(6, 223)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -228,7 +230,9 @@ Partial Class wav_new_login
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.Silver
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.White
         Me.TextBox3.Location = New System.Drawing.Point(7, 255)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -237,7 +241,9 @@ Partial Class wav_new_login
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.Silver
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.White
         Me.TextBox2.Location = New System.Drawing.Point(7, 155)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -256,7 +262,9 @@ Partial Class wav_new_login
         '
         'USName
         '
+        Me.USName.BackColor = System.Drawing.Color.Silver
         Me.USName.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.USName.ForeColor = System.Drawing.Color.White
         Me.USName.Location = New System.Drawing.Point(7, 84)
         Me.USName.Name = "USName"
         Me.USName.Size = New System.Drawing.Size(455, 40)

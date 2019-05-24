@@ -43,7 +43,9 @@ Partial Class WavBooking
         '
         'FltNum
         '
+        Me.FltNum.BackColor = System.Drawing.Color.Silver
         Me.FltNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FltNum.ForeColor = System.Drawing.Color.White
         Me.FltNum.Location = New System.Drawing.Point(2, 57)
         Me.FltNum.Name = "FltNum"
         Me.FltNum.Size = New System.Drawing.Size(237, 35)
@@ -51,7 +53,9 @@ Partial Class WavBooking
         '
         'deptime
         '
+        Me.deptime.BackColor = System.Drawing.Color.Silver
         Me.deptime.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.deptime.ForeColor = System.Drawing.Color.White
         Me.deptime.Location = New System.Drawing.Point(2, 269)
         Me.deptime.Name = "deptime"
         Me.deptime.Size = New System.Drawing.Size(237, 35)
@@ -59,7 +63,9 @@ Partial Class WavBooking
         '
         'ArrAir
         '
+        Me.ArrAir.BackColor = System.Drawing.Color.Silver
         Me.ArrAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ArrAir.ForeColor = System.Drawing.Color.White
         Me.ArrAir.Location = New System.Drawing.Point(2, 199)
         Me.ArrAir.Name = "ArrAir"
         Me.ArrAir.Size = New System.Drawing.Size(237, 35)
@@ -67,7 +73,9 @@ Partial Class WavBooking
         '
         'DeptAir
         '
+        Me.DeptAir.BackColor = System.Drawing.Color.Silver
         Me.DeptAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DeptAir.ForeColor = System.Drawing.Color.White
         Me.DeptAir.Location = New System.Drawing.Point(2, 130)
         Me.DeptAir.Name = "DeptAir"
         Me.DeptAir.Size = New System.Drawing.Size(237, 35)
@@ -75,7 +83,9 @@ Partial Class WavBooking
         '
         'Uname
         '
+        Me.Uname.BackColor = System.Drawing.Color.Silver
         Me.Uname.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Uname.ForeColor = System.Drawing.Color.White
         Me.Uname.Location = New System.Drawing.Point(2, 338)
         Me.Uname.Name = "Uname"
         Me.Uname.Size = New System.Drawing.Size(237, 35)
@@ -133,7 +143,9 @@ Partial Class WavBooking
         '
         'dte
         '
+        Me.dte.BackColor = System.Drawing.Color.Silver
         Me.dte.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dte.ForeColor = System.Drawing.Color.White
         Me.dte.Location = New System.Drawing.Point(2, 407)
         Me.dte.Name = "dte"
         Me.dte.Size = New System.Drawing.Size(237, 35)

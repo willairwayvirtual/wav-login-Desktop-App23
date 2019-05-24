@@ -64,7 +64,9 @@ Partial Class create_reg
         '
         'New_fname
         '
+        Me.New_fname.BackColor = System.Drawing.Color.Gray
         Me.New_fname.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.New_fname.ForeColor = System.Drawing.Color.White
         Me.New_fname.Location = New System.Drawing.Point(233, 108)
         Me.New_fname.Name = "New_fname"
         Me.New_fname.Size = New System.Drawing.Size(294, 35)
@@ -72,7 +74,9 @@ Partial Class create_reg
         '
         'new_lname
         '
+        Me.new_lname.BackColor = System.Drawing.Color.Gray
         Me.new_lname.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.new_lname.ForeColor = System.Drawing.Color.White
         Me.new_lname.Location = New System.Drawing.Point(233, 149)
         Me.new_lname.Name = "new_lname"
         Me.new_lname.Size = New System.Drawing.Size(294, 35)
@@ -80,7 +84,9 @@ Partial Class create_reg
         '
         'EMailAdd
         '
+        Me.EMailAdd.BackColor = System.Drawing.Color.Gray
         Me.EMailAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EMailAdd.ForeColor = System.Drawing.Color.White
         Me.EMailAdd.Location = New System.Drawing.Point(233, 253)
         Me.EMailAdd.Name = "EMailAdd"
         Me.EMailAdd.Size = New System.Drawing.Size(294, 35)
@@ -88,7 +94,9 @@ Partial Class create_reg
         '
         'new_username
         '
+        Me.new_username.BackColor = System.Drawing.Color.Gray
         Me.new_username.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.new_username.ForeColor = System.Drawing.Color.White
         Me.new_username.Location = New System.Drawing.Point(233, 198)
         Me.new_username.Name = "new_username"
         Me.new_username.Size = New System.Drawing.Size(294, 35)
@@ -96,7 +104,9 @@ Partial Class create_reg
         '
         'new_password
         '
+        Me.new_password.BackColor = System.Drawing.Color.Gray
         Me.new_password.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.new_password.ForeColor = System.Drawing.Color.White
         Me.new_password.Location = New System.Drawing.Point(233, 315)
         Me.new_password.MaxLength = 10
         Me.new_password.Name = "new_password"
@@ -105,7 +115,9 @@ Partial Class create_reg
         '
         'TextBox7
         '
+        Me.TextBox7.BackColor = System.Drawing.Color.Gray
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.ForeColor = System.Drawing.Color.White
         Me.TextBox7.Location = New System.Drawing.Point(233, 385)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)

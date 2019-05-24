@@ -55,10 +55,10 @@ Partial Class WavFlightPlan
         '
         'Route
         '
-        Me.Route.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Route.BackColor = System.Drawing.Color.Silver
         Me.Route.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Route.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Route.ForeColor = System.Drawing.Color.White
         Me.Route.Location = New System.Drawing.Point(1, 187)
         Me.Route.Multiline = True
         Me.Route.Name = "Route"
@@ -67,7 +67,9 @@ Partial Class WavFlightPlan
         '
         'FltNum
         '
+        Me.FltNum.BackColor = System.Drawing.Color.Silver
         Me.FltNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FltNum.ForeColor = System.Drawing.Color.White
         Me.FltNum.Location = New System.Drawing.Point(1, 31)
         Me.FltNum.Name = "FltNum"
         Me.FltNum.Size = New System.Drawing.Size(133, 26)
@@ -75,6 +77,8 @@ Partial Class WavFlightPlan
         '
         'Plan
         '
+        Me.Plan.BackColor = System.Drawing.Color.Silver
+        Me.Plan.ForeColor = System.Drawing.Color.White
         Me.Plan.Location = New System.Drawing.Point(153, 104)
         Me.Plan.Name = "Plan"
         Me.Plan.Size = New System.Drawing.Size(171, 20)
@@ -82,7 +86,9 @@ Partial Class WavFlightPlan
         '
         'ArrAir
         '
+        Me.ArrAir.BackColor = System.Drawing.Color.Silver
         Me.ArrAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ArrAir.ForeColor = System.Drawing.Color.White
         Me.ArrAir.Location = New System.Drawing.Point(325, 31)
         Me.ArrAir.Name = "ArrAir"
         Me.ArrAir.Size = New System.Drawing.Size(126, 26)
@@ -90,7 +96,9 @@ Partial Class WavFlightPlan
         '
         'ETA
         '
+        Me.ETA.BackColor = System.Drawing.Color.Silver
         Me.ETA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ETA.ForeColor = System.Drawing.Color.White
         Me.ETA.Location = New System.Drawing.Point(457, 32)
         Me.ETA.Name = "ETA"
         Me.ETA.Size = New System.Drawing.Size(100, 26)
@@ -98,6 +106,8 @@ Partial Class WavFlightPlan
         '
         'Gate
         '
+        Me.Gate.BackColor = System.Drawing.Color.Silver
+        Me.Gate.ForeColor = System.Drawing.Color.White
         Me.Gate.Location = New System.Drawing.Point(563, 32)
         Me.Gate.Name = "Gate"
         Me.Gate.Size = New System.Drawing.Size(130, 20)
@@ -155,6 +165,8 @@ Partial Class WavFlightPlan
         '
         'AcType
         '
+        Me.AcType.BackColor = System.Drawing.Color.Silver
+        Me.AcType.ForeColor = System.Drawing.Color.White
         Me.AcType.Location = New System.Drawing.Point(704, 31)
         Me.AcType.Name = "AcType"
         Me.AcType.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -173,7 +185,9 @@ Partial Class WavFlightPlan
         '
         'DeptAir
         '
+        Me.DeptAir.BackColor = System.Drawing.Color.Silver
         Me.DeptAir.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DeptAir.ForeColor = System.Drawing.Color.White
         Me.DeptAir.Location = New System.Drawing.Point(148, 32)
         Me.DeptAir.Name = "DeptAir"
         Me.DeptAir.Size = New System.Drawing.Size(171, 26)
@@ -224,7 +238,9 @@ Partial Class WavFlightPlan
         '
         'Fuel
         '
+        Me.Fuel.BackColor = System.Drawing.Color.Silver
         Me.Fuel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Fuel.ForeColor = System.Drawing.Color.White
         Me.Fuel.Location = New System.Drawing.Point(9, 105)
         Me.Fuel.Name = "Fuel"
         Me.Fuel.Size = New System.Drawing.Size(125, 20)
@@ -274,6 +290,8 @@ Partial Class WavFlightPlan
         '
         'TextBox10
         '
+        Me.TextBox10.BackColor = System.Drawing.Color.Silver
+        Me.TextBox10.ForeColor = System.Drawing.Color.White
         Me.TextBox10.Location = New System.Drawing.Point(330, 104)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(153, 20)
@@ -281,6 +299,8 @@ Partial Class WavFlightPlan
         '
         'PIC
         '
+        Me.PIC.BackColor = System.Drawing.Color.Silver
+        Me.PIC.ForeColor = System.Drawing.Color.White
         Me.PIC.Location = New System.Drawing.Point(489, 115)
         Me.PIC.Name = "PIC"
         Me.PIC.Size = New System.Drawing.Size(174, 20)
@@ -308,7 +328,9 @@ Partial Class WavFlightPlan
         '
         'Network
         '
+        Me.Network.BackColor = System.Drawing.Color.DarkGray
         Me.Network.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Network.ForeColor = System.Drawing.Color.White
         Me.Network.Location = New System.Drawing.Point(692, 114)
         Me.Network.Name = "Network"
         Me.Network.Size = New System.Drawing.Size(116, 20)

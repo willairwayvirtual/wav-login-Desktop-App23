@@ -17,7 +17,7 @@ Public Class wav12
         Else
             conn.Close()
         End If
-        Dim savenew As String = "INSERT INTO [cancelled fight]  (FltNum,DepTair,ArrAir,deptime,Uname,dte) values('" &
+        Dim savenew As String = "INSERT INTO [canxflight]  (FltNum,DepTair,ArrAir,deptime,Uname,dte) values('" &
             FltNum.Text & "','" &
             DeptAir.Text & "','" &
             ArrAir.Text & "','" &

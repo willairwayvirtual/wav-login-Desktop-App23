@@ -69,9 +69,9 @@ Partial Class ITHELPDESK
         '
         'MailSubject
         '
-        Me.MailSubject.BackColor = System.Drawing.SystemColors.MenuText
+        Me.MailSubject.BackColor = System.Drawing.Color.Silver
         Me.MailSubject.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MailSubject.ForeColor = System.Drawing.SystemColors.Info
+        Me.MailSubject.ForeColor = System.Drawing.Color.White
         Me.MailSubject.Location = New System.Drawing.Point(260, 142)
         Me.MailSubject.Name = "MailSubject"
         Me.MailSubject.Size = New System.Drawing.Size(596, 38)
@@ -79,9 +79,9 @@ Partial Class ITHELPDESK
         '
         'Umail
         '
-        Me.Umail.BackColor = System.Drawing.SystemColors.MenuText
+        Me.Umail.BackColor = System.Drawing.Color.Silver
         Me.Umail.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Umail.ForeColor = System.Drawing.SystemColors.Info
+        Me.Umail.ForeColor = System.Drawing.Color.White
         Me.Umail.Location = New System.Drawing.Point(260, 89)
         Me.Umail.Name = "Umail"
         Me.Umail.Size = New System.Drawing.Size(596, 38)
@@ -132,9 +132,9 @@ Partial Class ITHELPDESK
         '
         'Qry
         '
-        Me.Qry.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Qry.BackColor = System.Drawing.Color.Silver
         Me.Qry.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qry.ForeColor = System.Drawing.SystemColors.Info
+        Me.Qry.ForeColor = System.Drawing.Color.White
         Me.Qry.Location = New System.Drawing.Point(1, 221)
         Me.Qry.Multiline = True
         Me.Qry.Name = "Qry"

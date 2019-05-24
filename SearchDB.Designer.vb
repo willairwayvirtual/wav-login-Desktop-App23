@@ -55,6 +55,8 @@ Partial Class SearchDB
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.Silver
+        Me.TextBox1.ForeColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(3, 84)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(145, 20)
@@ -62,6 +64,8 @@ Partial Class SearchDB
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.Silver
+        Me.TextBox2.ForeColor = System.Drawing.Color.Silver
         Me.TextBox2.Location = New System.Drawing.Point(685, 84)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
@@ -69,13 +73,17 @@ Partial Class SearchDB
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(177, 84)
+        Me.TextBox3.BackColor = System.Drawing.Color.Silver
+        Me.TextBox3.ForeColor = System.Drawing.Color.White
+        Me.TextBox3.Location = New System.Drawing.Point(177, 85)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(142, 20)
         Me.TextBox3.TabIndex = 4
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.Silver
+        Me.TextBox4.ForeColor = System.Drawing.Color.White
         Me.TextBox4.Location = New System.Drawing.Point(573, 84)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
@@ -83,6 +91,8 @@ Partial Class SearchDB
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.Silver
+        Me.TextBox5.ForeColor = System.Drawing.Color.White
         Me.TextBox5.Location = New System.Drawing.Point(489, 84)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(78, 20)
@@ -90,6 +100,8 @@ Partial Class SearchDB
         '
         'TextBox6
         '
+        Me.TextBox6.BackColor = System.Drawing.Color.Silver
+        Me.TextBox6.ForeColor = System.Drawing.Color.White
         Me.TextBox6.Location = New System.Drawing.Point(341, 84)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(142, 20)

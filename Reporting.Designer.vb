@@ -104,7 +104,9 @@ Partial Class Reporting
         '
         'utextBox1
         '
+        Me.utextBox1.BackColor = System.Drawing.Color.Silver
         Me.utextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.utextBox1.ForeColor = System.Drawing.Color.White
         Me.utextBox1.Location = New System.Drawing.Point(12, 71)
         Me.utextBox1.Name = "utextBox1"
         Me.utextBox1.Size = New System.Drawing.Size(152, 38)
@@ -112,7 +114,9 @@ Partial Class Reporting
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.Silver
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(201, 71)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(152, 38)
@@ -120,7 +124,9 @@ Partial Class Reporting
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.Silver
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.White
         Me.TextBox2.Location = New System.Drawing.Point(393, 71)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(152, 38)
@@ -128,7 +134,9 @@ Partial Class Reporting
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.Silver
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.White
         Me.TextBox3.Location = New System.Drawing.Point(611, 71)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(152, 38)
