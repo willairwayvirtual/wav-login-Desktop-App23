@@ -75,7 +75,7 @@ Partial Class SearchDB
         '
         Me.TextBox3.BackColor = System.Drawing.Color.Silver
         Me.TextBox3.ForeColor = System.Drawing.Color.White
-        Me.TextBox3.Location = New System.Drawing.Point(177, 85)
+        Me.TextBox3.Location = New System.Drawing.Point(178, 84)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(142, 20)
         Me.TextBox3.TabIndex = 4
@@ -121,7 +121,7 @@ Partial Class SearchDB
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(154, 57)
+        Me.Label2.Location = New System.Drawing.Point(159, 56)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(176, 25)
         Me.Label2.TabIndex = 9

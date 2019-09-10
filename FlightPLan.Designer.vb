@@ -51,6 +51,8 @@ Partial Class WavFlightPlan
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Network = New System.Windows.Forms.TextBox()
+        Me.alte = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Route
@@ -62,7 +64,7 @@ Partial Class WavFlightPlan
         Me.Route.Location = New System.Drawing.Point(1, 187)
         Me.Route.Multiline = True
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(1066, 343)
+        Me.Route.Size = New System.Drawing.Size(1241, 185)
         Me.Route.TabIndex = 0
         '
         'FltNum
@@ -336,12 +338,37 @@ Partial Class WavFlightPlan
         Me.Network.Size = New System.Drawing.Size(116, 20)
         Me.Network.TabIndex = 30
         '
+        'alte
+        '
+        Me.alte.BackColor = System.Drawing.Color.Silver
+        Me.alte.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.alte.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.alte.ForeColor = System.Drawing.Color.White
+        Me.alte.Location = New System.Drawing.Point(-1, 422)
+        Me.alte.Multiline = True
+        Me.alte.Name = "alte"
+        Me.alte.Size = New System.Drawing.Size(1236, 213)
+        Me.alte.TabIndex = 31
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.White
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(440, 382)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(382, 37)
+        Me.Label14.TabIndex = 32
+        Me.Label14.Text = "ALTERNATE PLANNING"
+        '
         'WavFlightPlan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Blue
-        Me.ClientSize = New System.Drawing.Size(1006, 530)
+        Me.ClientSize = New System.Drawing.Size(1234, 579)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.alte)
         Me.Controls.Add(Me.Network)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
@@ -409,4 +436,6 @@ Partial Class WavFlightPlan
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Network As TextBox
+    Friend WithEvents alte As TextBox
+    Friend WithEvents Label14 As Label
 End Class

@@ -95,5 +95,7 @@ Public Class wav_new_login
         End If
     End Sub
 
+    Private Sub Button33_ContextMenuChanged(sender As Object, e As EventArgs) Handles Button33.ContextMenuChanged
 
+    End Sub
 End Class

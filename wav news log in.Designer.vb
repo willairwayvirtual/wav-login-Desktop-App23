@@ -233,7 +233,7 @@ Partial Class wav_new_login
         Me.TextBox3.BackColor = System.Drawing.Color.Silver
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.White
-        Me.TextBox3.Location = New System.Drawing.Point(7, 255)
+        Me.TextBox3.Location = New System.Drawing.Point(4, 255)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox3.Size = New System.Drawing.Size(458, 40)

@@ -26,12 +26,14 @@ Public Class create_reg
         
         Else
             'add new records
-            Dim savenew As String = "INSERT INTO [tblaccessinfo]  (Uname,Pword,Fname,Lname,EMailAdd) values('" &
+            Dim savenew As String = "INSERT INTO [tblaccessinfo]  (Uname,Pword,Fname,Lname,EMailAdd,HOMEICAO) values('" &
         new_username.Text & "','" &
         new_password.Text & "','" &
         New_fname.Text & "','" &
         new_lname.Text & "','" &
-        EMailAdd.Text & "');"
+        EMailAdd.Text & "','" &
+        HOMEICAO.Text & "');"
+
 
             Dim cmd As New OleDbCommand
 
