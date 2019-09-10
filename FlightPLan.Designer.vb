@@ -51,7 +51,7 @@ Partial Class WavFlightPlan
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Network = New System.Windows.Forms.TextBox()
-        Me.alte = New System.Windows.Forms.TextBox()
+        Me.ALTAI = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -338,17 +338,17 @@ Partial Class WavFlightPlan
         Me.Network.Size = New System.Drawing.Size(116, 20)
         Me.Network.TabIndex = 30
         '
-        'alte
+        'ALTAI
         '
-        Me.alte.BackColor = System.Drawing.Color.Silver
-        Me.alte.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.alte.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.alte.ForeColor = System.Drawing.Color.White
-        Me.alte.Location = New System.Drawing.Point(-1, 422)
-        Me.alte.Multiline = True
-        Me.alte.Name = "alte"
-        Me.alte.Size = New System.Drawing.Size(1236, 213)
-        Me.alte.TabIndex = 31
+        Me.ALTAI.BackColor = System.Drawing.Color.Silver
+        Me.ALTAI.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ALTAI.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ALTAI.ForeColor = System.Drawing.Color.White
+        Me.ALTAI.Location = New System.Drawing.Point(-1, 422)
+        Me.ALTAI.Multiline = True
+        Me.ALTAI.Name = "ALTAI"
+        Me.ALTAI.Size = New System.Drawing.Size(1236, 213)
+        Me.ALTAI.TabIndex = 31
         '
         'Label14
         '
@@ -368,7 +368,7 @@ Partial Class WavFlightPlan
         Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(1234, 579)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.alte)
+        Me.Controls.Add(Me.ALTAI)
         Me.Controls.Add(Me.Network)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
@@ -436,6 +436,6 @@ Partial Class WavFlightPlan
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Network As TextBox
-    Friend WithEvents alte As TextBox
+    Friend WithEvents ALTAI As TextBox
     Friend WithEvents Label14 As Label
 End Class

@@ -50,7 +50,9 @@ Partial Class acars
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.Silver
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(302, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(240, 38)
@@ -58,7 +60,9 @@ Partial Class acars
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.Silver
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.White
         Me.TextBox2.Location = New System.Drawing.Point(296, 66)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(246, 38)
@@ -205,7 +209,9 @@ Partial Class acars
         '
         'Uname
         '
+        Me.Uname.BackColor = System.Drawing.Color.Silver
         Me.Uname.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Uname.ForeColor = System.Drawing.Color.White
         Me.Uname.Location = New System.Drawing.Point(327, 374)
         Me.Uname.Name = "Uname"
         Me.Uname.Size = New System.Drawing.Size(215, 38)
